@@ -1,0 +1,11 @@
+{
+    "object": "jigsaw/ancient-city/ancient_city",
+    "placementOptions": {
+        "vanillaLoot": [
+            {
+                "name": "minecraft:chests/ancient_city"
+            }
+        ],
+        "mode": "PAINT"
+    }
+}

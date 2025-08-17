@@ -1,0 +1,8 @@
+{
+    "maxDepth": 3,
+    "structureKey": "minecraft:igloo",
+    "pieces": [
+        "igloo/top1"
+    ],
+    "terminate": true
+}
