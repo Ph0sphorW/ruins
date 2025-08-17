@@ -1,17 +1,19 @@
-# Ruins / 废墟  
+# Ruins  
+
+English | [中文](/README-zh.md)
 
 > [!NOTE]  
-> 本包**不适合**作为生存存档使用，偏向于欣赏和观景。  
+> This pack is not suitable for normal survivaling.  
 
 > 在一切都开始之后，一切又都结束了。  
-> —— 改自刘慈欣《时间移民》  
+> —— Rewritten from Cixing Liu *时间移民*
 
-Ruins 是 Iris 地形生成器的地形生成包。
+Ruins is a Iris datapack, mainly for sightseeing.
 
-## 实景
+## Screenshots
 
 > [!NOTE]  
-> 文件可能较大，请耐心等待加载。
+> Files are large and may take took some time to load.
 
 ![alt text](/screenshots/2025-01-06_15.20.35.png)
 
@@ -31,14 +33,14 @@ Ruins 是 Iris 地形生成器的地形生成包。
 
 ![alt text](/screenshots/2024-12-15_12.11.32.png)
 
-## 安装  
+## Installation  
 
-下载下来解压到 `<你的服务器根目录>/plugins/iris/packs/` 下，重启服务端即可。
+Download the `.zip` file, unarchive it to `<server>/plugins/iris/packs/` and restart the server.
 
-## 需要注意
+## Attention required
 
-本包最后更新时间为 7 个月前...由于我没有太多精力来维护我的这些杂七杂八的小项目，所以接下来这些内容我尽量交给 Icarus 的各位来维护了。  
+The last time I update this pack is 7 mo ago... I didn't have much time to maintain these small repositries and so my friends in Icarus may help to...update it, maybe.
 
-这个包是直接从 Overworld 改过来的，导致其结构相当臃肿。Overworld 本身里面就有很多的未使用结构文件，这导致这个包同样也有很多不明意义的冗余文件。  
+The pack is directly modified from Overworld pack so many of the files in the repo maybe useless and you can delete it anyway. There's a lot of unused files in Overworld so I used some to decorate this ruined world :)
 
-由此你可能会在文件夹内发现大量的未使用群系，你可以选择基于它们做新的群系，或是修改他们以适配废墟的风格。
+So you may find some unused biomes in the /biomes and feel free to modify them! You can choose to create a whole new biome to fit in the style of this pack.
