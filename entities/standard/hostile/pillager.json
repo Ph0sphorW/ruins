@@ -13,6 +13,38 @@
         "maxPitch": 1.7,
         "minPitch": 1.5,
         "volume": 2,
-        "sound": "BLOCK.RESPAWN_ANCHOR.DEPLETE"
-    }
+        "sound": "BLOCK_RESPAWN_ANCHOR_DEPLETE"
+    },
+    "attributes": [
+        {
+            "attribute": "GENERIC_ATTACK_DAMAGE",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        },
+        {
+            "attribute": "GENERIC_KNOCKBACK_RESISTANCE",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        },
+        {
+            "attribute": "GENERIC_MOVEMENT_SPEED",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        },
+        {
+            "attribute": "GENERIC_ATTACK_KNOCKBACK",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        },
+        {
+            "attribute": "GENERIC_MAX_HEALTH",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        }
+    ]
 }

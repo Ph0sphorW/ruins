@@ -12,94 +12,66 @@
     "caveBiomes": [
         "carving/rocky-cavebiome"
     ],
-    "objects": [
-        {
-            "heightmap": {
-                "seed": 1337,
-                "style": {
-                    "style": "SIMPLEX",
-                    "multiplier": 10
-                },
-                "offsetY": 5
+    "objects": [{
+        "heightmap": {
+            "seed": 1337,
+            "style": {
+                "style": "SIMPLEX",
+                "multiplier": 10
             },
-            "chance": 0.05,
-            "bottom": true,
-            "density": 1,
-            "place": [
-                "structures/amethyst1",
-                "structures/amethyst2",
-                "structures/amethyst3",
-                "structures/amethyst4",
-                "structures/amethyst5",
-                "structures/amethyst6"
-            ],
-            "edit": [
-                {
-                    "find": [
-                        {
-                            "block": "minecraft:glass"
-                        }
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "minecraft:void_air"
-                            }
-                        ]
-                    }
-                }
-            ],
-            "enabled": true,
-            "xAxis": {
-                "interval": 90,
-                "max": 360,
-                "min": 0
+            "offsetY": 5
+        },
+        "chance": 0.05,
+        "bottom": true,
+        "density": 1,
+        "place": [
+            "structures/amethyst1",
+            "structures/amethyst2",
+            "structures/amethyst3",
+            "structures/amethyst4",
+            "structures/amethyst5",
+            "structures/amethyst6"
+        ],
+        "edit": [{
+            "find": [{"block": "minecraft:glass"}],
+            "replace": {"palette": [{"block": "minecraft:void_air"}]}
+        }],
+        "enabled": true,
+        "xAxis": {
+            "interval": 90,
+            "max": 360,
+            "min": 0
+        },
+        "yAxis": {
+            "interval": 90,
+            "max": 360,
+            "min": 0
+        },
+        "translate": {
+            "yRandom": 10,
+            "y": 2
+        }
+    }],
+    "shoreBiomes": ["mushroom/shore/beach"],
+    "seaBiomes": ["mushroom/sea/ocean"],
+    "blockDrops": [{
+        "drops": [
+            {
+                "type": "red_mushroom",
+                "rarity": 8
             },
-            "yAxis": {
-                "interval": 90,
-                "max": 360,
-                "min": 0
-            },
-            "translate": {
-                "yRandom": 10,
-                "y": 2
+            {
+                "type": "brown_mushroom",
+                "rarity": 8
             }
-        }
-    ],
-    "shoreBiomes": [
-        "mushroom/shore/beach"
-    ],
-    "seaBiomes": [
-        "mushroom/sea/ocean"
-    ],
-    "blockDrops": [
-        {
-            "drops": [
-                {
-                    "type": "red_mushroom",
-                    "rarity": 8
-                },
-                {
-                    "type": "brown_mushroom",
-                    "rarity": 8
-                }
-            ],
-            "blocks": [
-                {
-                    "block": "minecraft:mycelium"
-                },
-                {
-                    "block": "minecraft:mushroom_stem"
-                },
-                {
-                    "block": "minecraft:red_mushroom_block"
-                },
-                {
-                    "block": "minecraft:brown_mushroom_block"
-                }
-            ]
-        }
-    ],
+        ],
+        "blocks": [
+            {"block": "minecraft:mycelium"},
+            {"block": "minecraft:mushroom_stem"},
+            {"block": "minecraft:red_mushroom_block"},
+            {"block": "minecraft:brown_mushroom_block"}
+        ]
+    }],
     "landBiomeZoom": 1.8,
     "effects": [
         {
@@ -119,7 +91,7 @@
             "minPitch": 0.2,
             "chance": 8,
             "maxPitch": 0.3,
-            "sound": "AMBIENT.WARPED_FOREST.ADDITIONS",
+            "sound": "AMBIENT_WARPED_FOREST_ADDITIONS",
             "interval": 60000,
             "soundDistance": 3
         }
@@ -132,28 +104,19 @@
     ],
     "shoreHeightMin": 3.2,
     "shoreHeightMax": 6.2,
-    "carving": {
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
-    },
+    "carving": {"caves": [{
+        "breakSurface": true,
+        "cave": "rocky/main",
+        "rarity": 50,
+        "caveStartHeight": {
+            "max": 400,
+            "min": 15,
+            "style": {"style": "STATIC"}
+        }
+    }]},
     "shoreHeightZoom": 1.14,
     "loot": {
-        "mode": "FALLBACK",
-        "tables": [
-            "mushroom/clutter",
-            "mushroom/food"
-        ]
+        "mode": "REPLACE",
+        "tables": ["mushroom/clutter", "mushroom/food"]
     }
 }

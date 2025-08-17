@@ -176,7 +176,7 @@
         {
             "chance": 0.35,
             "variance": {"style": "STATIC"},
-            "palette": [{"block": "minecraft:short_grass"}],
+            "palette": [{"block": "minecraft:grass"}],
             "style": {"style": "STATIC"}
         },
         {
@@ -207,8 +207,6 @@
             "variance": {"style": "STATIC"},
             "palette": [{"block": "minecraft:tall_grass"}],
             "style": {"style": "STATIC"}
-        },
-         "snippet/decorator/wildflowers",
-         "snippet/decorator/bush"
+        }
     ]
 }

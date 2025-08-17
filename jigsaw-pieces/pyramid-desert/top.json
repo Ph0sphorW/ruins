@@ -14,11 +14,7 @@
         "direction": "DOWN_NEGATIVE_Y"
     }],
     "placementOptions": {
-                        "vanillaLoot": [
-            {
-                "name": "minecraft:chests/desert_pyramid"
-            }
-        ],
+        "loot": ["structures/pyramid-desert"],
         "overStilt": 0,
         "chance": 1,
         "meld": false,

@@ -122,7 +122,7 @@
                 {
                     "find": [
                         {"block": "minecraft:tall_grass"},
-                        {"block": "minecraft:short_grass"}
+                        {"block": "minecraft:grass"}
                     ],
                     "replace": {"palette": [{"block": "minecraft:seagrass"}]}
                 }
@@ -173,11 +173,9 @@
                 "structures/oruins2",
                 "structures/oruins3"
             ],
-            "vanillaLoot": [
-                {
-                    "name": "minecraft:chests/underwater_ruin_small"
-                }
-            ]
+            "mode": "PAINT",
+            "loot": [{"name": "structures/ocean-ruins"}],
+            "overrideGlobalLoot": true
         }
     ],
     "decorators": [

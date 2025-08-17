@@ -161,7 +161,7 @@
             "palette": [
                 {
                     "weight": 1,
-                    "block": "minecraft:short_grass"
+                    "block": "minecraft:grass"
                 },
                 {"block": "minecraft:lily_of_the_valley"},
                 {"block": "minecraft:allium"},
@@ -177,7 +177,7 @@
             "zoom": 0.2,
             "palette": [{
                 "weight": 1,
-                "block": "minecraft:short_grass"
+                "block": "minecraft:grass"
             }]
         },
         {
@@ -221,8 +221,6 @@
             "variance": {"style": "STATIC"},
             "zoom": 0.2,
             "palette": [{"block": "minecraft:cobblestone_slab"}]
-        },
-        "snippet/decorator/leaf",
-         "snippet/decorator/bush"
+        }
     ]
 }

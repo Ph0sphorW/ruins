@@ -265,8 +265,7 @@
         },
         {
             "chance": 0.5,
-            "palette": [{"block": "minecraft:short_grass"}]
-        },
-        "snippet/decorator/dry_grass"
+            "palette": [{"block": "minecraft:grass"}]
+        }
     ]
 }

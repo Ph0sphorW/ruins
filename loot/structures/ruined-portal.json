@@ -291,7 +291,7 @@
                     "minLevel": 1
                 },
                 {
-                    "enchantment": "sweeping_edge",
+                    "enchantment": "sweeping",
                     "chance": 0.1,
                     "maxLevel": 3,
                     "minLevel": 1

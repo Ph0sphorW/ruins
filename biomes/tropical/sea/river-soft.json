@@ -120,7 +120,7 @@
                 {
                     "find": [
                         {"block": "minecraft:tall_grass"},
-                        {"block": "minecraft:short_grass"}
+                        {"block": "minecraft:grass"}
                     ],
                     "replace": {"palette": [{"block": "minecraft:seagrass"}]}
                 }

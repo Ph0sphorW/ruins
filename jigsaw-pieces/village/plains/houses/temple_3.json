@@ -13,11 +13,7 @@
         "direction": "WEST_NEGATIVE_X"
     }],
     "placementOptions": {
-                        "vanillaLoot": [
-            {
-                "name": "minecraft:chests/village/village_temple"
-            }
-        ],
+        "loot": ["structures/village/temple"],
         "markers": [{
             "emptyAbove": true,
             "maximumMarkers": 1,

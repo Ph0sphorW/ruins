@@ -316,10 +316,6 @@
             "maximumScale": 1,
             "interpolation": "NONE"
         },
-                        "vanillaLoot": [
-            {
-                "name": "minecraft:chests/ruined_portal"
-            }
-        ]
+        "loot": ["stronghold/generic"]
     }
 }

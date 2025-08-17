@@ -197,7 +197,7 @@
             "chance": 0.5,
             "palette": [
                 {
-                    "block": "minecraft:short_grass",
+                    "block": "minecraft:grass",
                     "weight": 15
                 },
                 {
@@ -216,9 +216,7 @@
                 "style": "STATIC",
                 "zoom": 0.8
             }
-        },
-        "snippet/decorator/wildflowers",
-         "snippet/decorator/bush"
+        }
     ],
     "childStyle": {
         "style": "CELLULAR_IRIS_THICK",

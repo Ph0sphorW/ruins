@@ -232,9 +232,9 @@
             "palette": [
                 {"block": "minecraft:jungle_leaves"},
                 {"block": "minecraft:tall_grass"},
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
                 {"block": "minecraft:jungle_leaves"},
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
                 {"block": "minecraft:jungle_leaves"}
             ],
             "style": {
@@ -272,7 +272,7 @@
             "variance": {"style": "STATIC"},
             "zoom": 10,
             "palette": [
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
                 {"block": "minecraft:tall_grass"}
             ],
             "style": {"style": "STATIC"},
@@ -284,7 +284,7 @@
         "particleAltY": -0.33885,
         "particleAltZ": 0.301,
         "chance": 3,
-        "particleEffect": "TOTEM_OF_UNDYING",
+        "particleEffect": "TOTEM",
         "particleOffset": 12,
         "interval": 550,
         "particleCount": 3

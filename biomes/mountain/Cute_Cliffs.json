@@ -104,7 +104,7 @@
         },
         {
             "chance": 0.5,
-            "palette": [{"block": "minecraft:short_grass"}]
+            "palette": [{"block": "minecraft:grass"}]
         }
     ],
     "slab": {

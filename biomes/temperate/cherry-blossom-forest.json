@@ -119,7 +119,10 @@
                     "replace": {
                         "palette": [
                             {
-                                "block": "minecraft:cherry_wood"
+                                "block": "minecraft:cherry_log"
+                            },
+                            {
+                                "block": "minecraft:stripped_cherry_wood"
                             }
                         ],
                         "style": {
@@ -188,9 +191,9 @@
             ]
         },
         {
-            "chance": 0.25,
+            "chance": 0.7,
             "mode": "MIN_HEIGHT",
-            "density": 1,
+            "density": 2,
             "rotation": {
                 "yAxis": {
                     "min": 0,
@@ -236,7 +239,10 @@
                         },
                         "palette": [
                             {
-                                "block": "minecraft:cherry_wood"
+                                "block": "minecraft:cherry_log"
+                            },
+                            {
+                                "block": "minecraft:stripped_cherry_wood"
                             }
                         ]
                     }
@@ -322,6 +328,27 @@
     ],
     "decorators": [
         {
+            "chance": 0.0075,
+            "variance": {
+                "style": "VASCULAR"
+            },
+            "zoom": 0.2,
+            "topPalette": [{
+                "block": "minecraft:lantern",
+                "data": {
+                    "hanging": "false"
+                }
+            }],
+            "stackMax": 2,
+            "stackMin": 2,
+            "palette": [
+                {
+                    "block": "minecraft:oak_fence"
+                }
+            ]
+        },
+
+        {
             "chance": 0.6,
             "variance": {
                 "style": "STATIC"
@@ -330,17 +357,17 @@
             "palette": [
                 {
                     "weight": 1,
-                    "block": "minecraft:short_grass"
+                    "block": "minecraft:grass"
                 },
                 {
-                    "block": "minecraft:short_grass"
+                    "block": "minecraft:grass"
                 },
                 {
-                    "block": "minecraft:short_grass"
+                    "block": "minecraft:grass"
                 },
                 {
                     "chance": 7,
-                    "block": "minecraft:short_grass"
+                    "block": "minecraft:grass"
                 }
             ]
         },
@@ -403,7 +430,6 @@
                     "block": "minecraft:cobblestone_slab"
                 }
             ]
-        },
-         "snippet/decorator/bush"
+        }
     ]
 }

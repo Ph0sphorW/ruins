@@ -106,7 +106,7 @@
             "palette": [
                 {
                     "weight": 2,
-                    "block": "minecraft:short_grass"
+                    "block": "minecraft:grass"
                 },
                 {
                     "weight": 1,
@@ -138,7 +138,7 @@
         },
         {
             "chance": 0.5,
-            "palette": [{"block": "minecraft:short_grass"}]
+            "palette": [{"block": "minecraft:grass"}]
         }
     ]
 }

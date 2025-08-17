@@ -79,7 +79,7 @@
         "particleAltY": -0.33885,
         "particleAltZ": 0.301,
         "chance": 1,
-        "particleEffect": "LARGE_SMOKE",
+        "particleEffect": "SMOKE_LARGE",
         "particleOffset": 0,
         "interval": 550,
         "particleCount": 0

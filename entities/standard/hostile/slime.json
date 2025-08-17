@@ -1,1 +1,35 @@
-{"type": "SLIME"}
+{
+    "type": "SLIME",
+    "attributes": [
+        {
+            "attribute": "GENERIC_ATTACK_DAMAGE",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        },
+        {
+            "attribute": "GENERIC_KNOCKBACK_RESISTANCE",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        },
+        {
+            "attribute": "GENERIC_MOVEMENT_SPEED",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        },
+        {
+            "attribute": "GENERIC_ATTACK_KNOCKBACK",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        },
+        {
+            "attribute": "GENERIC_MAX_HEALTH",
+            "maxAmount": 4,
+            "minAmount": 4,
+            "operation": "ADD_SCALAR"
+        }
+    ]
+}

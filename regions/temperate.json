@@ -15,12 +15,16 @@
         "temperate/birch-forest",
         "temperate/longtree-forest",
         "temperate/oak-forest",
+        "temperate/cherry-blossom-forest",
         "temperate/osaka-violet-forest",
         "temperate/osaka-red-forest",
         "mountain/Cute_Cliffs",
+        "mountain/Cute_Cliffs",
+        "temperate/cherry-blossom-forest",
         "temperate/roughplains",
         "temperate/calmplains",
         "temperate/fancyplains",
+        "temperate/shattered-plains",
         "temperate/sakura-forest",
         "temperate/oak-forest-flat",
         "temperate/croak"
@@ -182,7 +186,7 @@
     "shoreHeightZoom": 1.14,
     "riverThickness": 0.025,
     "loot": {
-        "mode": "FALLBACK",
+        "mode": "REPLACE",
         "tables": [
             "temperate/clutter",
             "temperate/food"

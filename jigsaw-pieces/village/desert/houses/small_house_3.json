@@ -27,11 +27,7 @@
         }
     ],
     "placementOptions": {
-                "vanillaLoot": [
-            {
-                "name": "minecraft:chests/village/village_desert_house"
-            }
-        ],
+        "loot": ["structures/village/desert"],
         "overStilt": 0,
         "chance": 1,
         "meld": false,

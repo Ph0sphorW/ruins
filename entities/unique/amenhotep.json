@@ -6,12 +6,12 @@
         "chance": 1,
         "maxPitch": 0.7,
         "minPitch": 0.2,
-        "sound": "ENTITY.SKELETON_HORSE.DEATH",
-        "particleEffect": "ENCHANT",
+        "sound": "ENTITY_SKELETON_HORSE_DEATH",
+        "particleEffect": "ENCHANTMENT_TABLE",
         "particleCount": 100
     },
     "attributes": [{
-        "attribute": "ARMOR",
+        "attribute": "GENERIC_ARMOR",
         "maxAmount": 100,
         "minAmount": 100,
         "operation": "ADD_NUMBER"
@@ -79,7 +79,7 @@
             }
         ],
         "attributes": [{
-            "attribute": "LUCK",
+            "attribute": "GENERIC_LUCK",
             "maxAmount": 5,
             "minAmount": 3,
             "chance": 1,
@@ -111,7 +111,7 @@
             }
         ],
         "attributes": [{
-            "attribute": "MAX_HEALTH",
+            "attribute": "GENERIC_MAX_HEALTH",
             "maxAmount": 5,
             "minAmount": 3,
             "chance": 1,
@@ -143,7 +143,7 @@
             }
         ],
         "attributes": [{
-            "attribute": "KNOCKBACK_RESISTANCE",
+            "attribute": "GENERIC_KNOCKBACK_RESISTANCE",
             "maxAmount": 5,
             "minAmount": 3,
             "chance": 1,

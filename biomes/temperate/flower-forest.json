@@ -399,7 +399,7 @@
             },
             "palette": [
                 {"block": "minecraft:dandelion"},
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
                 {"block": "minecraft:poppy"},
                 {"block": "minecraft:blue_orchid"},
                 {"block": "minecraft:allium"},
@@ -420,13 +420,13 @@
             "palette": [
                 {
                     "weight": 1,
-                    "block": "minecraft:short_grass"
+                    "block": "minecraft:grass"
                 },
-                {"block": "minecraft:short_grass"},
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
+                {"block": "minecraft:grass"},
                 {
                     "chance": 7,
-                    "block": "minecraft:short_grass"
+                    "block": "minecraft:grass"
                 },
                 {"block": "minecraft:dandelion"},
                 {"block": "minecraft:poppy"},
@@ -470,7 +470,7 @@
             "chance": 0.5,
             "variance": {"style": "STATIC"},
             "zoom": 0.2,
-            "palette": [{"block": "minecraft:short_grass"}]
+            "palette": [{"block": "minecraft:grass"}]
         },
         {
             "chance": 0.03,
@@ -483,9 +483,6 @@
             "variance": {"style": "STATIC"},
             "zoom": 0.2,
             "palette": [{"block": "minecraft:cobblestone_slab"}]
-        },
-        "snippet/decorator/leaf",
-         "snippet/decorator/wildflowers",
-         "snippet/decorator/bush"
+        }
     ]
 }

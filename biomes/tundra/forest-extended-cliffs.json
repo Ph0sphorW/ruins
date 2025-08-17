@@ -279,10 +279,9 @@
             "chance": 0.2,
             "variance": {"style": "STATIC"},
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:short_grass"}],
+            "palette": [{"block": "minecraft:grass"}],
             "style": {"style": "STATIC"}
-        },
-         "snippet/decorator/bush"
+        }
     ],
     "biomeSkyScatter": [
         "SNOWY_TAIGA",

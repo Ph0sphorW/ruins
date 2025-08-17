@@ -141,7 +141,7 @@
         },
         {
             "chance": 0.75,
-            "palette": [{"block": "minecraft:short_grass"}]
+            "palette": [{"block": "minecraft:grass"}]
         },
         {
             "stackMin": 1,
@@ -248,8 +248,7 @@
                 }
             ],
             "style": {"style": "STATIC"}
-        },
-         "snippet/decorator/bush"
+        }
     ],
     "generators": [{
         "generator": "mountain",

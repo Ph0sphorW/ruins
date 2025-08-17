@@ -137,7 +137,7 @@
             "chance": 0.4,
             "variance": {"style": "STATIC"},
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:short_grass"}],
+            "palette": [{"block": "minecraft:grass"}],
             "style": {"style": "STATIC"}
         },
         {
@@ -176,7 +176,7 @@
         "particleAltY": -0.33885,
         "particleAltZ": 0.301,
         "chance": 1,
-        "particleEffect": "TOTEM_OF_UNDYING",
+        "particleEffect": "TOTEM",
         "particleOffset": 12,
         "interval": 550,
         "particleCount": 0

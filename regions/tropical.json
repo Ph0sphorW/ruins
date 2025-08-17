@@ -18,24 +18,23 @@
     "caveBiomes": [
         "carving/rocky-cavebiome"
     ],
-    "jigsawStructures": [
-        {
-            "structure": "ruined-portal",
-            "rarity": 1200
+
+    "jigsawStructures": [{
+        "structure": "ruined-portal",
+        "rarity": 1200
+    },
+    {
+        "structure": "dungeon-skeleton",
+        "rarity": 800
         },
         {
-            "structure": "dungeon-skeleton",
-            "rarity": 800
+        "structure": "dungeon-spider",
+        "rarity": 800
         },
         {
-            "structure": "dungeon-spider",
-            "rarity": 800
-        },
-        {
-            "structure": "dungeon-zombie",
-            "rarity": 800
-        }
-    ],
+        "structure": "dungeon-zombie",
+        "rarity": 800
+        }],
     "objects": [
         {
             "heightmap": {
@@ -57,22 +56,10 @@
                 "structures/amethyst5",
                 "structures/amethyst6"
             ],
-            "edit": [
-                {
-                    "find": [
-                        {
-                            "block": "minecraft:glass"
-                        }
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "minecraft:void_air"
-                            }
-                        ]
-                    }
-                }
-            ],
+            "edit": [{
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }],
             "enabled": true,
             "xAxis": {
                 "interval": 90,
@@ -103,12 +90,10 @@
         "ocean/rich-oceans"
     ],
     "carving": {
-        "ravines": [
-            {
-                "rarity": 170,
-                "ravine": "jungle/main"
-            }
-        ],
+        "ravines": [{
+            "rarity": 170,
+            "ravine": "jungle/main"
+        }],
         "caves": [
             {
                 "breakSurface": true,
@@ -117,9 +102,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             },
             {
@@ -129,9 +112,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             },
             {
@@ -141,9 +122,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             },
             {
@@ -153,32 +132,24 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             }
         ]
     },
-    "deposits": [
-        {
-            "minHeight": 10,
-            "maxPerChunk": 9,
-            "maxHeight": 92,
-            "minPerChunk": 2,
-            "minSize": 3,
-            "maxSize": 8,
-            "palette": [
-                {
-                    "block": "minecraft:lapis_ore"
-                },
-                {
-                    "block": "minecraft:redstone_ore"
-                }
-            ],
-            "varience": 8
-        }
-    ],
+    "deposits": [{
+        "minHeight": 10,
+        "maxPerChunk": 9,
+        "maxHeight": 92,
+        "minPerChunk": 2,
+        "minSize": 3,
+        "maxSize": 8,
+        "palette": [
+            {"block": "minecraft:lapis_ore"},
+            {"block": "minecraft:redstone_ore"}
+        ],
+        "varience": 8
+    }],
     "entitySpawners": [
         "tropical/passive",
         "tropical/hostile",
@@ -191,11 +162,7 @@
     "shoreHeightMax": 9.2,
     "shoreHeightZoom": 2.14,
     "loot": {
-        "mode": "FALLBACK",
-        "tables": [
-            "tropical/treasure",
-            "tropical/food",
-            "tropical/dungeon"
-        ]
+        "mode": "REPLACE",
+        "tables": ["tropical/treasure","tropical/food","tropical/dungeon"]
     }
 }

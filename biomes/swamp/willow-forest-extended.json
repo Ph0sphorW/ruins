@@ -274,14 +274,14 @@
             "chance": 0.45,
             "variance": {"style": "STATIC"},
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:short_grass"}],
+            "palette": [{"block": "minecraft:grass"}],
             "style": {"style": "STATIC"}
         }
     ],
     "effects": [
         {
             "interval": 55656,
-            "sound": "AMBIENT.SOUL_SAND_VALLEY.MOOD",
+            "sound": "AMBIENT_SOUL_SAND_VALLEY_MOOD",
             "soundDistance": 3,
             "volume": 6.2,
             "minPitch": 1.6,
@@ -290,7 +290,7 @@
         },
         {
             "interval": 56565,
-            "sound": "AMBIENT.SOUL_SAND_VALLEY.MOOD",
+            "sound": "AMBIENT_SOUL_SAND_VALLEY_MOOD",
             "soundDistance": 3,
             "volume": 6.2,
             "minPitch": 0.4,

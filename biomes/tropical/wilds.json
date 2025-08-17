@@ -255,7 +255,7 @@
         {
             "chance": 0.42,
             "palette": [
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
                 {"block": "minecraft:fern"}
             ]
         },
@@ -309,7 +309,7 @@
     "effects": [{
         "interval": 250,
         "chance": 5,
-        "particleEffect": "TOTEM_OF_UNDYING",
+        "particleEffect": "TOTEM",
         "particleOffset": 2,
         "particleAltY": 0.2,
         "particleCount": 5

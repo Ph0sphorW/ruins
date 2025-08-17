@@ -1,0 +1,66 @@
+{
+    "name": "Paradise Lost",
+    "color": "#FF6666",
+    "rarity": 1,
+    "derivative": "THE_VOID",
+    "vanillaDerivative": "THE_VOID",
+    "generators": [
+        {
+            "generator": "nothing-expanded",
+            "max": 40,
+            "min": 20
+        },
+        {
+            "generator": "nothing",
+            "max": 20,
+            "min": 10
+        }
+    ],
+    "customDerivitives": [
+        {
+            "category": "none",
+            "id": "paradise_lost",
+            "temperature": 0,
+            "humidity": 0,
+            "downfallType": "none",
+            "skyColor": "#FF6666",
+            "fogColor": "#FF6666",
+            "waterColor": "#FFFFFF",
+            "waterFogColor": "#FFFFFF"
+        }
+    ],
+    "layers": [
+        {
+            "minHeight": 2,
+            "maxHeight": 3,
+            "zoom": 0.6,
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "minecraft:red_concrete"
+                }
+            ]
+        },
+        {
+            "minHeight": 3,
+            "maxHeight": 4,
+            "zoom": 0.6,
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "minecraft:white_concrete"
+                }
+            ]
+        }
+    ],
+    "slab": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "block": "minecraft:iron_block"
+            }
+        ]
+    }
+}

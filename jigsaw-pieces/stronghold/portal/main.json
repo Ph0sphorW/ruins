@@ -1,24 +1,20 @@
 {
     "object": "jigsaw/stronghold/portal/main",
-    "connectors": [
-        {
-            "name": "top",
-            "targetName": "top",
-            "rotateConnector": false,
-            "innerConnector": false,
-            "pools": [
-                "stronghold/portalroom"
-            ],
-            "keepEntity": false,
-            "entityCount": 1,
-            "position": {
-                "x": 0,
-                "y": 7,
-                "z": 5
-            },
-            "direction": "UP_POSITIVE_Y"
-        }
-    ],
+    "connectors": [{
+        "name": "top",
+        "targetName": "top",
+        "rotateConnector": false,
+        "innerConnector": false,
+        "pools": ["stronghold/portalroom"],
+        "keepEntity": false,
+        "entityCount": 1,
+        "position": {
+            "x": 0,
+            "y": 7,
+            "z": 5
+        },
+        "direction": "UP_POSITIVE_Y"
+    }],
     "placementOptions": {
         "rotation": {
             "enabled": false,
@@ -73,16 +69,41 @@
         "mode": "FAST_MAX_HEIGHT",
         "edit": [
             {
-                "find": [
-                    {
+                "find": [{
+                    "block": "minecraft:end_portal_frame",
+                    "debug": false,
+                    "weight": 1,
+                    "data": {"facing": "east"}
+                }],
+                "replace": {
+                    "style": {
+                        "style": "STATIC",
+                        "zoom": 1,
+                        "multiplier": 1,
+                        "axialFracturing": false,
+                        "exponent": 1
+                    },
+                    "zoom": 5,
+                    "palette": [{
                         "block": "minecraft:end_portal_frame",
                         "debug": false,
                         "weight": 1,
                         "data": {
+                            "eye": "true",
                             "facing": "east"
                         }
-                    }
-                ],
+                    }]
+                },
+                "exact": true,
+                "chance": 0.15
+            },
+            {
+                "find": [{
+                    "block": "minecraft:end_portal_frame",
+                    "debug": false,
+                    "weight": 1,
+                    "data": {"facing": "west"}
+                }],
                 "replace": {
                     "style": {
                         "style": "STATIC",
@@ -92,32 +113,26 @@
                         "exponent": 1
                     },
                     "zoom": 5,
-                    "palette": [
-                        {
-                            "block": "minecraft:end_portal_frame",
-                            "debug": false,
-                            "weight": 1,
-                            "data": {
-                                "eye": "true",
-                                "facing": "east"
-                            }
-                        }
-                    ]
-                },
-                "exact": true,
-                "chance": 0.15
-            },
-            {
-                "find": [
-                    {
+                    "palette": [{
                         "block": "minecraft:end_portal_frame",
                         "debug": false,
                         "weight": 1,
                         "data": {
+                            "eye": "true",
                             "facing": "west"
                         }
-                    }
-                ],
+                    }]
+                },
+                "exact": true,
+                "chance": 0.15
+            },
+            {
+                "find": [{
+                    "block": "minecraft:end_portal_frame",
+                    "debug": false,
+                    "weight": 1,
+                    "data": {"facing": "north"}
+                }],
                 "replace": {
                     "style": {
                         "style": "STATIC",
@@ -127,32 +142,26 @@
                         "exponent": 1
                     },
                     "zoom": 5,
-                    "palette": [
-                        {
-                            "block": "minecraft:end_portal_frame",
-                            "debug": false,
-                            "weight": 1,
-                            "data": {
-                                "eye": "true",
-                                "facing": "west"
-                            }
-                        }
-                    ]
-                },
-                "exact": true,
-                "chance": 0.15
-            },
-            {
-                "find": [
-                    {
+                    "palette": [{
                         "block": "minecraft:end_portal_frame",
                         "debug": false,
                         "weight": 1,
                         "data": {
+                            "eye": "true",
                             "facing": "north"
                         }
-                    }
-                ],
+                    }]
+                },
+                "exact": true,
+                "chance": 0.15
+            },
+            {
+                "find": [{
+                    "block": "minecraft:end_portal_frame",
+                    "debug": false,
+                    "weight": 1,
+                    "data": {"facing": "south"}
+                }],
                 "replace": {
                     "style": {
                         "style": "STATIC",
@@ -162,65 +171,26 @@
                         "exponent": 1
                     },
                     "zoom": 5,
-                    "palette": [
-                        {
-                            "block": "minecraft:end_portal_frame",
-                            "debug": false,
-                            "weight": 1,
-                            "data": {
-                                "eye": "true",
-                                "facing": "north"
-                            }
-                        }
-                    ]
-                },
-                "exact": true,
-                "chance": 0.15
-            },
-            {
-                "find": [
-                    {
+                    "palette": [{
                         "block": "minecraft:end_portal_frame",
                         "debug": false,
                         "weight": 1,
                         "data": {
+                            "eye": "true",
                             "facing": "south"
                         }
-                    }
-                ],
-                "replace": {
-                    "style": {
-                        "style": "STATIC",
-                        "zoom": 1,
-                        "multiplier": 1,
-                        "axialFracturing": false,
-                        "exponent": 1
-                    },
-                    "zoom": 5,
-                    "palette": [
-                        {
-                            "block": "minecraft:end_portal_frame",
-                            "debug": false,
-                            "weight": 1,
-                            "data": {
-                                "eye": "true",
-                                "facing": "south"
-                            }
-                        }
-                    ]
+                    }]
                 },
                 "exact": true,
                 "chance": 0.15
             },
             {
-                "find": [
-                    {
-                        "block": "minecraft:stone_bricks",
-                        "debug": false,
-                        "weight": 1,
-                        "data": {}
-                    }
-                ],
+                "find": [{
+                    "block": "minecraft:stone_bricks",
+                    "debug": false,
+                    "weight": 1,
+                    "data": {}
+                }],
                 "replace": {
                     "style": {
                         "style": "STATIC",
@@ -249,14 +219,12 @@
                 "chance": 0.3
             },
             {
-                "find": [
-                    {
-                        "block": "minecraft:stone",
-                        "debug": false,
-                        "weight": 1,
-                        "data": {}
-                    }
-                ],
+                "find": [{
+                    "block": "minecraft:stone",
+                    "debug": false,
+                    "weight": 1,
+                    "data": {}
+                }],
                 "replace": {
                     "style": {
                         "style": "STATIC",
@@ -266,14 +234,12 @@
                         "exponent": 1
                     },
                     "zoom": 4,
-                    "palette": [
-                        {
-                            "block": "minecraft:stone_bricks",
-                            "debug": false,
-                            "weight": 1,
-                            "data": {}
-                        }
-                    ]
+                    "palette": [{
+                        "block": "minecraft:stone_bricks",
+                        "debug": false,
+                        "weight": 1,
+                        "data": {}
+                    }]
                 },
                 "exact": false,
                 "chance": 0.3
@@ -285,10 +251,6 @@
             "maximumScale": 1,
             "interpolation": "NONE"
         },
-        "vanillaLoot": [
-            {
-                "name": "minecraft:chests/stronghold_corridor"
-            }
-        ]
+        "loot": ["stronghold/generic"]
     }
 }

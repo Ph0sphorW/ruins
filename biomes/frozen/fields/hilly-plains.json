@@ -32,10 +32,6 @@
             "structure": "pillager-outpost",
             "rarity": 800
         },
-         {
-            "structure": "village-snowy",
-            "rarity": 800
-        },
         {
             "structure": "igloo",
             "rarity": 800
@@ -52,15 +48,9 @@
     ],
     "wall": {
         "palette": [
-            {
-                "block": "minecraft:stone"
-            },
-            {
-                "block": "minecraft:andesite"
-            },
-            {
-                "block": "minecraft:gravel"
-            }
+        {"block": "minecraft:white_concrete"},
+        {"block": "minecraft:calcite"},
+        {"block": "minecraft:diorite"}
         ]
     },
     "layers": [
@@ -80,7 +70,7 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:dirt"}]
+            "palette": [{"block": "minecraft:white_concrete"}]
         },
         {
             "minHeight": 3,
@@ -89,7 +79,7 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:dirt"}, {"block": "minecraft:stone"}]
+            "palette": [{"block": "minecraft:deepslate"}, {"block": "minecraft:calcite"}]
         }
     ],
     "objects": [
@@ -138,6 +128,25 @@
                 "clutter/sbush1",
                 "clutter/sbush2",
                 "clutter/sbush3"
+            ],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_log"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:blackstone"
+                            },
+                            {
+                                "block": "minecraft:polished_blackstone"
+                            }
+                        ]
+                    }
+                }
             ],
             "snow": 0.25
         }

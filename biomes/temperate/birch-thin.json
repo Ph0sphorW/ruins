@@ -168,7 +168,7 @@
             "variance": {"style": "STATIC"},
             "zoom": 0.1,
             "palette": [
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
                 {"block": "minecraft:allium"},
                 {"block": "minecraft:poppy"},
                 {"block": "minecraft:dandelion"},
@@ -184,7 +184,7 @@
             "zoom": 0.3,
             "palette": [
                 {
-                    "block": "minecraft:short_grass",
+                    "block": "minecraft:grass",
                     "weight": 10
                 },
                 {"block": "minecraft:fern"}
@@ -197,8 +197,6 @@
             "zoom": 0.3,
             "palette": [{"block": "minecraft:tall_grass"}],
             "style": {"style": "STATIC"}
-        },
-         "snippet/decorator/wildflowers",
-         "snippet/decorator/bush"
+        }
     ]
 }

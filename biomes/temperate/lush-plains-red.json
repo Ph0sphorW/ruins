@@ -183,7 +183,7 @@
             "chance": 0.5,
             "palette": [
                 {
-                    "block": "minecraft:short_grass",
+                    "block": "minecraft:grass",
                     "weight": 15
                 },
                 {
@@ -198,7 +198,6 @@
                 "block": "minecraft:oak_leaves",
                 "data": {"persistent": true}
             }]
-        },
-         "snippet/decorator/bush"
+        }
     ]
 }

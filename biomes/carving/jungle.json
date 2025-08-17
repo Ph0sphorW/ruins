@@ -51,7 +51,7 @@
                     "weight": 10
                 },
                 {
-                    "block": "minecraft:short_grass",
+                    "block": "minecraft:grass",
                     "weight": 100
                 },
                 {"block": "minecraft:azalea"},

@@ -38,11 +38,7 @@
         }
     ],
     "placementOptions": {
-                        "vanillaLoot": [
-            {
-                "name": "minecraft:chests/village/village_fisher"
-            }
-        ],
+        "loot": ["structures/village/fisher"],
         "markers": [{
             "emptyAbove": true,
             "maximumMarkers": 1,

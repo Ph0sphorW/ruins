@@ -220,7 +220,7 @@
             "chance": 0.4,
             "variance": {"style": "STATIC"},
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:short_grass"}],
+            "palette": [{"block": "minecraft:grass"}],
             "style": {"style": "STATIC"}
         },
         {
@@ -229,9 +229,7 @@
             "zoom": 0.3,
             "palette": [{"block": "minecraft:tall_grass"}],
             "style": {"style": "STATIC"}
-        },
-         "snippet/decorator/wildflowers",
-         "snippet/decorator/bush"
+        }
     ],
     "childStyle": {
         "style": "NOWHERE_SIMPLEX",

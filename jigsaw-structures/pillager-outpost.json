@@ -1,6 +1,5 @@
 {
     "maxDepth": 2,
-    "structureKey": "minecraft:pillager_outpost",
     "pieces": [
         "pillager-outpost/watchtower",
         "pillager-outpost/watchtower",

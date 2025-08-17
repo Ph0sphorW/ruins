@@ -33,7 +33,7 @@
             "slottypes": "STORAGE"
         },
         {
-            "type": "turtle_scute",
+            "type": "scute",
             "maxamount": 3,
             "minAmount": 2,
             "rarity": 2,

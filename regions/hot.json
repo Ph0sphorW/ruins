@@ -27,22 +27,24 @@
             "rarity": 1000
         },
         {
-            "structure": "ruined-portal",
-            "rarity": 1200
+        "structure": "ruined-portal",
+        "rarity": 1200
         },
         {
-            "structure": "dungeon-skeleton",
-            "rarity": 800
+        "structure": "dungeon-skeleton",
+        "rarity": 800
         },
         {
-            "structure": "dungeon-spider",
-            "rarity": 800
+        "structure": "dungeon-spider",
+        "rarity": 800
         },
         {
-            "structure": "dungeon-zombie",
-            "rarity": 800
+        "structure": "dungeon-zombie",
+        "rarity": 800
         }
+
     ],
+
     "objects": [
         {
             "heightmap": {
@@ -64,22 +66,10 @@
                 "structures/amethyst5",
                 "structures/amethyst6"
             ],
-            "edit": [
-                {
-                    "find": [
-                        {
-                            "block": "minecraft:glass"
-                        }
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "minecraft:void_air"
-                            }
-                        ]
-                    }
-                }
-            ],
+            "edit": [{
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }],
             "enabled": true,
             "xAxis": {
                 "interval": 90,
@@ -97,13 +87,8 @@
             }
         }
     ],
-    "shoreBiomes": [
-        "hot/shore/beach"
-    ],
-    "seaBiomes": [
-        "hot/sea/ocean",
-        "ocean/rich-oceans"
-    ],
+    "shoreBiomes": ["hot/shore/beach"],
+    "seaBiomes": ["hot/sea/ocean", "ocean/rich-oceans"],
     "entitySpawners": [
         "hot/passive",
         "hot/hostile",
@@ -118,11 +103,7 @@
             "minPerChunk": 1,
             "minSize": 3,
             "maxSize": 8,
-            "palette": [
-                {
-                    "block": "minecraft:gold_ore"
-                }
-            ],
+            "palette": [{"block": "minecraft:gold_ore"}],
             "varience": 5
         },
         {
@@ -132,11 +113,7 @@
             "minPerChunk": 1,
             "minSize": 3,
             "maxSize": 8,
-            "palette": [
-                {
-                    "block": "minecraft:lapis_ore"
-                }
-            ],
+            "palette": [{"block": "minecraft:lapis_ore"}],
             "varience": 5
         }
     ],
@@ -161,6 +138,7 @@
             "particleCount": 0
         }
     ],
+
     "carving": {
         "ravines": [
             {
@@ -184,9 +162,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             },
             {
@@ -196,9 +172,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             },
             {
@@ -208,9 +182,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             },
             {
@@ -220,9 +192,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             },
             {
@@ -232,9 +202,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             }
         ]
@@ -243,10 +211,7 @@
     "shoreHeightMax": 6.2,
     "shoreHeightZoom": 1.14,
     "loot": {
-        "mode": "FALLBACK",
-        "tables": [
-            "hot/food",
-            "hot/treasure"
-        ]
+        "mode": "REPLACE",
+        "tables": ["hot/food", "hot/treasure"]
     }
 }

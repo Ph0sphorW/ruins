@@ -111,7 +111,7 @@
             "chance": 0.19,
             "variance": {"style": "STATIC"},
             "zoom": 0.3,
-            "palette": [{"block": "minecraft:short_grass"}],
+            "palette": [{"block": "minecraft:grass"}],
             "style": {"style": "STATIC"}
         },
         {
@@ -126,7 +126,6 @@
                 "style": "NOWHERE",
                 "zoom": 0.28
             }
-        },
-         "snippet/decorator/bush"
+        }
     ]
 }

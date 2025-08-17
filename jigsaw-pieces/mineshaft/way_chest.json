@@ -5,9 +5,7 @@
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": [
-                "mineshaft/generic"
-            ],
+            "pools": ["mineshaft/generic"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
@@ -21,9 +19,7 @@
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": [
-                "mineshaft/generic"
-            ],
+            "pools": ["mineshaft/generic"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
@@ -34,11 +30,5 @@
             "direction": "EAST_POSITIVE_X"
         }
     ],
-    "placementOptions": {
-                "vanillaLoot": [
-            {
-                "name": "minecraft:chests/abandoned_mineshaft"
-            }
-        ]
-    }
+    "placementOptions": {"loot": ["structures/mineshaft"]}
 }

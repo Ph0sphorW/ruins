@@ -5,9 +5,7 @@
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": [
-                "pillager-outpost/features-overgrown"
-            ],
+            "pools": ["pillager-outpost/features-overgrown"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
@@ -21,9 +19,7 @@
             "name": "",
             "targetName": "*",
             "innerConnector": true,
-            "pools": [
-                "pillager-outpost/features-overgrown"
-            ],
+            "pools": ["pillager-outpost/features-overgrown"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
@@ -37,9 +33,7 @@
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": [
-                "pillager-outpost/features-overgrown"
-            ],
+            "pools": ["pillager-outpost/features-overgrown"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
@@ -53,9 +47,7 @@
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": [
-                "pillager-outpost/features-overgrown"
-            ],
+            "pools": ["pillager-outpost/features-overgrown"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
@@ -69,9 +61,7 @@
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": [
-                "pillager-outpost/features-overgrown"
-            ],
+            "pools": ["pillager-outpost/features-overgrown"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
@@ -85,9 +75,7 @@
             "name": "",
             "targetName": "*",
             "innerConnector": false,
-            "pools": [
-                "pillager-outpost/features-overgrown"
-            ],
+            "pools": ["pillager-outpost/features-overgrown"],
             "keepEntity": false,
             "entityCount": 1,
             "position": {
@@ -98,13 +86,8 @@
             "direction": "WEST_NEGATIVE_X"
         }
     ],
-    "placementOptions": {
-        "vanillaLoot": [
-            {
-                "name": "minecraft:chests/pillager_outpost"
-            }
-        ],
-        "mode": "CENTER_STILT",
-        "smartBore": true
+    "placementOptions":{
+         "mode": "CENTER_STILT",
+         "smartBore": true
     }
 }

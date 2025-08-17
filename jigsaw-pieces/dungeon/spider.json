@@ -1,10 +1,8 @@
 {
     "object": "jigsaw/dungeon/spider",
     "placementOptions": {
-        "vanillaLoot": [
-            {
-                "name": "minecraft:chests/simple_dungeon"
-            }
+        "loot": [
+            "structures/dungeon"
         ],
         "edit": [
             {

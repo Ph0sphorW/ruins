@@ -1,6 +1,5 @@
 {
     "maxDepth": 5,
-    "structureKey": "minecraft:stronghold",
     "pieces": ["stronghold/portal/main"],
     "terminate": false,
     "lockY": 50,

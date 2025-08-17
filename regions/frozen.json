@@ -100,36 +100,6 @@
         "frozen/sea/ocean",
         "frozen/sea/frozen-river-ice"
     ],
-    "deposits": [
-        {
-            "minHeight": 8,
-            "maxPerChunk": 5,
-            "maxHeight": 45,
-            "minPerChunk": 1,
-            "minSize": 2,
-            "maxSize": 4,
-            "palette": [
-                {
-                    "block": "minecraft:diamond_ore"
-                }
-            ],
-            "varience": 4
-        },
-        {
-            "minHeight": 1,
-            "maxPerChunk": 5,
-            "maxHeight": 84,
-            "minPerChunk": 1,
-            "minSize": 3,
-            "maxSize": 8,
-            "palette": [
-                {
-                    "block": "minecraft:copper_ore"
-                }
-            ],
-            "varience": 8
-        }
-    ],
     "riverRarity": 1,
     "landBiomeZoom": 3,
     "shoreHeightMin": 2.2,
@@ -183,13 +153,25 @@
                         "style": "STATIC"
                     }
                 }
+            },
+            {
+                "breakSurface": true,
+                "cave": "eternal-blue/main",
+                "rarity": 50,
+                "caveStartHeight": {
+                    "max": 400,
+                    "min": 15,
+                    "style": {
+                        "style": "IRIS_THICK"
+                    }
+                }
             }
         ]
     },
     "shoreHeightZoom": 1.14,
     "riverThickness": 0.006,
     "loot": {
-        "mode": "FALLBACK",
+        "mode": "REPLACE",
         "tables": [
             "frozen/clutter",
             "frozen/food",

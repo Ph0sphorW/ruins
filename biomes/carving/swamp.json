@@ -22,7 +22,7 @@
             "chance": 0.15,
             "style": {"style": "STATIC"},
             "palette": [
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
                 {"block": "minecraft:fern"}
             ]
         },

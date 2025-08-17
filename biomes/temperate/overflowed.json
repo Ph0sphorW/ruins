@@ -273,9 +273,8 @@
         },
         {
             "chance": 0.5,
-            "palette": [{"block": "minecraft:short_grass"}]
-        },
-         "snippet/decorator/bush"
+            "palette": [{"block": "minecraft:grass"}]
+        }
     ],
     "features": [{
         "rarity": 252,

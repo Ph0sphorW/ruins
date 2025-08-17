@@ -89,11 +89,6 @@
     "placementOptions": {
         "mode": "CENTER_STILT",
         "smartBore": true,
-        "vanillaLoot": [
-            {
-                "name": "minecraft:chests/pillager_outpost"
-            }
-        ],
         "markers": [{
             "emptyAbove": true,
             "maximumMarkers": 4,

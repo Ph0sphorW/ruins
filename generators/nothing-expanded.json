@@ -1,0 +1,49 @@
+{
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_12",
+        "horizontalScale": 1500
+    },
+    "seed": 114514,
+    "composite": [
+        {
+            "seed": 310,
+            "style": {
+                "style": "FRACTAL_SMOKE",
+                "zoom": 14,
+                "axialFracturing": true
+            },
+            "bezier": true,
+            "exponent": 2
+        },
+        {
+            "seed": 310,
+            "style": {
+                "style": "IRIS",
+                "zoom": 16,
+                "axialFracturing": true
+            },
+            "bezier": true,
+            "exponent": 1.15
+        },
+        {
+            "seed": 310,
+            "style": {
+                "style": "CLOVER_STARCAST_12",
+                "zoom": 18,
+                "axialFracturing": true
+            },
+            "bezier": true,
+            "exponent": 1.25
+        },
+        {
+            "seed": 310,
+            "style": {
+                "style": "NOWHERE_CELLULAR",
+                "zoom": 20,
+                "axialFracturing": true
+            },
+            "bezier": true,
+            "exponent": 1.125
+        }
+    ]
+}

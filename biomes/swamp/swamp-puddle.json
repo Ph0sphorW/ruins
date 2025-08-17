@@ -114,7 +114,7 @@
     "decorators": [
         {
             "chance": 0.25,
-            "palette": [{"block": "minecraft:short_grass"}]
+            "palette": [{"block": "minecraft:grass"}]
         },
         {
             "chance": 0.065,

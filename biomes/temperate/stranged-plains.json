@@ -185,7 +185,7 @@
                     "weight": 45
                 },
                 {
-                    "block": "minecraft:short_grass",
+                    "block": "minecraft:grass",
                     "weight": 4
                 },
                 {
@@ -203,7 +203,7 @@
             },
             "palette": [
                 {
-                    "block": "minecraft:short_grass",
+                    "block": "minecraft:grass",
                     "weight": 4
                 },
                 {
@@ -212,8 +212,7 @@
                 }
             ],
             "forcePlace": false
-        },
-         "snippet/decorator/bush"
+        }
     ],
     "childStyle": {
         "style": "NOWHERE",

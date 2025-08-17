@@ -1,0 +1,41 @@
+{
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_12",
+        "horizontalScale": 1000
+    },
+    "seed": 888,
+    "composite": [
+        {
+            "seed": 310,
+            "style": {
+                "style": "FRACTAL_SMOKE",
+                "zoom": 14,
+                "axialFracturing": true
+            }
+        },
+        {
+            "seed": 310,
+            "style": {
+                "style": "IRIS",
+                "zoom": 14,
+                "axialFracturing": true
+            }
+        },
+        {
+            "seed": 310,
+            "style": {
+                "style": "CLOVER_STARCAST_12",
+                "zoom": 14,
+                "axialFracturing": true
+            }
+        },
+        {
+            "seed": 310,
+            "style": {
+                "style": "NOWHERE_CELLULAR",
+                "zoom": 14,
+                "axialFracturing": true
+            }
+        }
+    ]
+}

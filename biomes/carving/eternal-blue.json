@@ -1,0 +1,268 @@
+{
+    "name": "Eternal Blue",
+    "wall": {
+        "palette": [
+            {
+                "block": "minecraft:blue_concrete",
+                "weight": 10
+            },
+            {
+                "block": "minecraft:light_blue_concrete"
+            },
+            {
+                "block": "minecraft:blue_stained_glass",
+                "weight": 3
+            },
+            {
+                "block": "minecraft:light_blue_stained_glass",
+                "weight": 3
+            },
+            {
+                "block": "minecraft:blue_terracotta",
+                "weight": 3
+            },
+            {
+                "block": "minecraft:light_blue_terracotta",
+                "weight": 3
+            },
+            {
+                "block": "minecraft:blue_wool",
+                "weight": 3
+            },
+            {
+                "block": "minecraft:light_blue_wool",
+                "weight": 3
+            }
+        ]
+    },
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:blue_concrete",
+                    "weight": 10
+                },
+                {
+                    "block": "minecraft:light_blue_concrete"
+                },
+                {
+                    "block": "minecraft:blue_stained_glass",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:light_blue_stained_glass",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:blue_terracotta",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:light_blue_terracotta",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:blue_wool",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:light_blue_wool",
+                    "weight": 3
+                }
+            ],
+            "maxHeight": 2,
+            "minHeight": 2
+        },
+        {
+            "palette": [
+                {
+                    "block": "minecraft:blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "north"
+                    }
+                },
+                {
+                    "block": "minecraft:blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "south"
+                    }
+                },
+                {
+                    "block": "minecraft:blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "west"
+                    }
+                },
+                {
+                    "block": "minecraft:blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "east"
+                    }
+                },
+                {
+                    "block": "minecraft:light_blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "north"
+                    }
+                },
+                {
+                    "block": "minecraft:light_blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "south"
+                    }
+                },
+                {
+                    "block": "minecraft:light_blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "west"
+                    }
+                },
+                {
+                    "block": "minecraft:light_blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "east"
+                    }
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.1,
+            "palette": [
+                {
+                    "block": "minecraft:blue_stained_glass_pane",
+                    "weight": 4
+                },
+                {
+                    "block": "minecraft:light_blue_stained_glass_pane",
+                    "weight": 4
+                }
+            ]
+        },
+        {
+            "partOf": "CEILING",
+            "chance": 0.1,
+            "palette": [
+                {
+                    "block": "minecraft:blue_stained_glass_pane",
+                    "weight": 4
+                },
+                {
+                    "block": "minecraft:light_blue_stained_glass_pane",
+                    "weight": 4
+                }
+            ]
+        }
+    ],
+    "caveCeilingLayers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:blue_concrete",
+                    "weight": 10
+                },
+                {
+                    "block": "minecraft:light_blue_concrete"
+                },
+                {
+                    "block": "minecraft:blue_stained_glass",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:light_blue_stained_glass",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:blue_terracotta",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:light_blue_terracotta",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "north"
+                    }
+                },
+                {
+                    "block": "minecraft:blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "south"
+                    }
+                },
+                {
+                    "block": "minecraft:blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "west"
+                    }
+                },
+                {
+                    "block": "minecraft:blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "east"
+                    }
+                },
+                {
+                    "block": "minecraft:light_blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "north"
+                    }
+                },
+                {
+                    "block": "minecraft:light_blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "south"
+                    }
+                },
+                {
+                    "block": "minecraft:light_blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "west"
+                    }
+                },
+                {
+                    "block": "minecraft:light_blue_glazed_terracotta",
+                    "weight": 3,
+                    "data": {
+                        "facing": "east"
+                    }
+                },
+                {
+                    "block": "minecraft:blue_wool",
+                    "weight": 3
+                },
+                {
+                    "block": "minecraft:light_blue_wool",
+                    "weight": 3
+                }
+            ],
+            "maxHeight": 2,
+            "minHeight": 2
+        },
+        {
+            "palette": [
+                {
+                    "block": "minecraft:deepslate"
+                }
+            ]
+        }
+    ]
+}

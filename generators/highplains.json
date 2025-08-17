@@ -7,10 +7,10 @@
     "composite": [{
         "style": {
             "style": "IRIS_DOUBLE",
-            "zoom": 0.87,
+            "zoom": 19.4,
             "fracture": {
                 "style": "NOWHERE_SIMPLEX",
-                "zoom": 1.14
+                "zoom": 11.4
             }
         },
         "seed": 474325,

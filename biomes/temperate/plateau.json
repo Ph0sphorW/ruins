@@ -253,7 +253,7 @@
             "zoom": 0.2,
             "palette": [{
                 "chance": 7,
-                "block": "minecraft:short_grass"
+                "block": "minecraft:grass"
             }]
         },
         {
@@ -265,7 +265,7 @@
                 {"block": "minecraft:rose_bush"},
                 {"block": "minecraft:cobblestone_slab"},
                 {"block": "minecraft:dandelion"},
-                {"block": "minecraft:short_grass"},
+                {"block": "minecraft:grass"},
                 {"block": "minecraft:poppy"},
                 {"block": "minecraft:blue_orchid"},
                 {"block": "minecraft:allium"},
@@ -294,7 +294,6 @@
                     "block": "minecraft:poppy"
                 }
             ]
-        },
-         "snippet/decorator/bush"
+        }
     ]
 }

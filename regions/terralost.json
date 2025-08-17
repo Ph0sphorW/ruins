@@ -9,13 +9,14 @@
         "terralost/alpine-grove",
         "terralost/alpine-highlands"
     ],
+    "loot": {
+        "mode": "ADD",
+        "multiplier": 1,
+        "tables": ["tropical/dungeon"]
+    },
     "landBiomeZoom": 3,
-    "shoreBiomes": [
-        "tundra/shore/beach"
-    ],
-    "seaBiomes": [
-        "mountain/sea/river"
-    ],
+    "shoreBiomes": ["tundra/shore/beach"],
+    "seaBiomes": ["mountain/sea/river"],
     "entitySpawners": [
         "tundra/passive",
         "tundra/hostile",
@@ -24,33 +25,21 @@
     "shoreHeightMin": 2.2,
     "shoreHeightMax": 5.2,
     "carving": {
-        "ravines": [
-            {
-                "rarity": 25,
-                "ravine": "calcite/main"
+        "ravines": [{
+            "rarity": 25,
+            "ravine": "calcite/main"
+        }],
+        "caves": [{
+            "breakSurface": true,
+            "cave": "rocky/main",
+            "rarity": 50,
+            "caveStartHeight": {
+                "max": 400,
+                "min": 15,
+                "style": {"style": "STATIC"}
             }
-        ],
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
+        }]
     },
     "shoreHeightZoom": 1.14,
-    "riverThickness": 0.025,
-    "loot": {
-        "mode": "FALLBACK",
-        "tables": [
-            "tropical/dungeon"
-        ]
-    }
+    "riverThickness": 0.025
 }

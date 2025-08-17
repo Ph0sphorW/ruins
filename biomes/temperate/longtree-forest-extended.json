@@ -338,7 +338,7 @@
             "zoom": 0.2,
             "palette": [{
                 "weight": 1,
-                "block": "minecraft:short_grass"
+                "block": "minecraft:grass"
             }]
         },
         {
@@ -376,16 +376,14 @@
                 {"block": "minecraft:dandelion"},
                 {"block": "minecraft:oxeye_daisy"}
             ]
-        },
-        "snippet/decorator/leaf",
-         "snippet/decorator/bush"
+        }
     ],
     "effects": [{
         "particleAltX": 0.301,
         "particleAltY": -0.33885,
         "particleAltZ": 0.301,
         "chance": 3,
-        "particleEffect": "TOTEM_OF_UNDYING",
+        "particleEffect": "TOTEM",
         "particleOffset": 12,
         "interval": 550,
         "particleCount": 3

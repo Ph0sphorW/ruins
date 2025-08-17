@@ -1,10 +1,6 @@
 {
     "placementOptions": {
-                "vanillaLoot": [
-            {
-                "name": "minecraft:chests/underwater_ruin_small"
-            }
-        ],
+        "loot": ["structures/ocean-ruins"],
         "overStilt": 0,
         "chance": 1,
         "meld": false,

@@ -71,7 +71,7 @@
                 {
                     "find": [
                         {"block": "minecraft:tall_grass"},
-                        {"block": "minecraft:short_grass"}
+                        {"block": "minecraft:grass"}
                     ],
                     "replace": {"palette": [{"block": "minecraft:water"}]}
                 }
@@ -116,11 +116,7 @@
             "waterloggable": true
         },
                {
-        "vanillaLoot": [
-                {
-                    "name": "minecraft:chests/underwater_ruin_small"
-                }
-            ],
+        "loot": ["structures/ocean-ruins"],
         "overStilt": 0,
         "chance": 0.0002,
         "meld": false,

@@ -97,7 +97,7 @@
         "particleAltY": -0.33885,
         "particleAltZ": 0.301,
         "chance": 1,
-        "particleEffect": "TOTEM_OF_UNDYING",
+        "particleEffect": "TOTEM",
         "particleOffset": 12,
         "interval": 550,
         "particleCount": 0

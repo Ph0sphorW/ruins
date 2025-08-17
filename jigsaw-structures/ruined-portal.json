@@ -1,6 +1,5 @@
 {
     "maxDepth": 1,
-    "structureKey": "#minecraft:ruined_portal",
     "pieces": [
         "ruined-portal/giant_portal_1",
         "ruined-portal/giant_portal_2",

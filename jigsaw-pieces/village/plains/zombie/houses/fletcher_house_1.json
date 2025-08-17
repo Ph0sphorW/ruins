@@ -12,11 +12,7 @@
         "direction": "WEST_NEGATIVE_X"
     }],
     "placementOptions": {
-                "vanillaLoot": [
-            {
-                "name": "minecraft:chests/village/village_fletcher"
-            }
-        ],
+        "loot": ["structures/village/fletcher"],
         "overStilt": 0,
         "chance": 1,
         "meld": false,

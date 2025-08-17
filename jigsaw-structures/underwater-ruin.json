@@ -1,6 +1,5 @@
 {
     "maxDepth": 1,
-    "structureKey": "#minecraft:ocean_ruin",
     "pieces": [
         "underwater-ruin/big_brick_1",
         "underwater-ruin/big_brick_2",

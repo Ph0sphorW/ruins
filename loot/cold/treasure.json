@@ -90,21 +90,21 @@
             ],
             "attributes": [
                 {
-                    "attribute": "LUCK",
+                    "attribute": "GENERIC_LUCK",
                     "operation": "ADD_NUMBER",
                     "maxAmount": 0.1,
                     "minAmount": 0.07,
                     "name": "LUCK"
                 },
                 {
-                    "attribute": "ARMOR",
+                    "attribute": "GENERIC_ARMOR",
                     "operation": "ADD_NUMBER",
                     "maxAmount": 4,
                     "minAmount": 2,
                     "name": "RRM"
                 },
                 {
-                    "attribute": "MAX_HEALTH",
+                    "attribute": "GENERIC_MAX_HEALTH",
                     "operation": "ADD_NUMBER",
                     "maxAmount": 4,
                     "minAmount": 2,
@@ -115,7 +115,7 @@
                 "HIDE_ATTRIBUTES",
                 "HIDE_ENCHANTS",
                 "HIDE_PLACED_ON",
-                "HIDE_ATTRIBUTES"
+                "HIDE_POTION_EFFECTS"
             ],
             "slotTypes": "STORAGE"
         }
