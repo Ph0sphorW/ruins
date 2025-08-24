@@ -1,24 +1,19 @@
 {
-    "name": "Frozen",
-    "color": "#44C3D1",
+    "name": "Pale",
+    "color": "#F8F8FF",
     "rarity": 1,
     "landBiomes": [
-        "frozen/plains",
-        "frozen/hills",
-        "frozen/tundra-winter",
-        "frozen/pines",
-        "frozen/vander",
-        "frozen/fields/hilly-plains",
-        "frozen/fields/mountain-spruce-winter",
-        "frozen/fields/mountain-spruce-winter-extended",
-        "frozen/fields/cold-spines",
-        "frozen/fields/cold-plains",
-        "frozen/ice-spikes",
-        "frozen/mountains/large-mountain",
-        "frozen/mountains/extreem-ice-spikes"
+        "pale/calcite-forest",
+        "pale/calcite-plains",
+        "pale/pale-desert",
+        "pale/pale-forest",
+        "pale/pale-plains",
+        "pale/quartz-extreme-land",
+        "pale/quartz-highland",
+        "pale/quartz-plains"
     ],
     "caveBiomes": [
-        "carving/rocky-cavebiome"
+        "carving/calcite"
     ],
     "jigsawStructures": [
         {
@@ -93,46 +88,26 @@
         }
     ],
     "shoreBiomes": [
-        "frozen/shore/beach"
+        "pale/shore/ghostwhite-shore"
     ],
     "seaBiomeZoom": 1,
     "seaBiomes": [
-        "frozen/sea/ocean",
-        "frozen/sea/frozen-river-ice"
+        "pale/ocean/ghostwhite-sea"
     ],
-    "riverRarity": 1,
-    "landBiomeZoom": 3,
+    "landBiomeZoom": 4,
     "shoreHeightMin": 2.2,
     "shoreHeightMax": 4.2,
-    "entitySpawners": [
-        "frozen/passive",
-        "frozen/hostile",
-        "frozen/cave",
-        "frozen/water"
-    ],
     "carving": {
         "ravines": [
             {
                 "rarity": 150,
-                "ravine": "ice/main"
+                "ravine": "calcite/main"
             }
         ],
         "caves": [
             {
                 "breakSurface": true,
-                "cave": "cavesv4/glacial/main",
-                "rarity": 20,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "ice/main",
+                "cave": "calcite/main",
                 "rarity": 50,
                 "caveStartHeight": {
                     "max": 400,
@@ -144,13 +119,37 @@
             },
             {
                 "breakSurface": true,
-                "cave": "rocky/main",
+                "cave": "calcite/small",
                 "rarity": 50,
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
                     "style": {
                         "style": "STATIC"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/spider-infestation/main",
+                "rarity": 50,
+                "caveStartHeight": {
+                    "max": 400,
+                    "min": 15,
+                    "style": {
+                        "style": "IRIS_THICK"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "cavesv4/spider-infestation/small",
+                "rarity": 50,
+                "caveStartHeight": {
+                    "max": 400,
+                    "min": 15,
+                    "style": {
+                        "style": "IRIS_THICK"
                     }
                 }
             }

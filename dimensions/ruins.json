@@ -1,5 +1,5 @@
 {
-    "version": 1000,
+    "version": 1200,
     "name": "Ruins",
     "environment": "NORMAL",
     "dimensionAngleDeg": 67,
@@ -55,8 +55,11 @@
     "regionZoom": 30.05,
     "regions": [
         "frozen",
-        "ruins",
-        "ruins"
+        "fake",
+        "blued",
+        "noir",
+        "pale",
+        "violet"
     ],
     "seaBiomeStyle": {
         "style": "SIMPLEX",

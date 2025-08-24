@@ -1,24 +1,12 @@
 {
-    "name": "Frozen",
-    "color": "#44C3D1",
+    "name": "Fake",
+    "color": "#E6E6FA",
     "rarity": 1,
     "landBiomes": [
-        "frozen/plains",
-        "frozen/hills",
-        "frozen/tundra-winter",
-        "frozen/pines",
-        "frozen/vander",
-        "frozen/fields/hilly-plains",
-        "frozen/fields/mountain-spruce-winter",
-        "frozen/fields/mountain-spruce-winter-extended",
-        "frozen/fields/cold-spines",
-        "frozen/fields/cold-plains",
-        "frozen/ice-spikes",
-        "frozen/mountains/large-mountain",
-        "frozen/mountains/extreem-ice-spikes"
-    ],
-    "caveBiomes": [
-        "carving/rocky-cavebiome"
+        "fake/magic-forest-extended",
+        "fake/none-forest",
+        "fake/none-islands",
+        "fake/none-plains"
     ],
     "jigsawStructures": [
         {
@@ -92,15 +80,6 @@
             }
         }
     ],
-    "shoreBiomes": [
-        "frozen/shore/beach"
-    ],
-    "seaBiomeZoom": 1,
-    "seaBiomes": [
-        "frozen/sea/ocean",
-        "frozen/sea/frozen-river-ice"
-    ],
-    "riverRarity": 1,
     "landBiomeZoom": 3,
     "shoreHeightMin": 2.2,
     "shoreHeightMax": 4.2,
@@ -110,52 +89,6 @@
         "frozen/cave",
         "frozen/water"
     ],
-    "carving": {
-        "ravines": [
-            {
-                "rarity": 150,
-                "ravine": "ice/main"
-            }
-        ],
-        "caves": [
-            {
-                "breakSurface": true,
-                "cave": "cavesv4/glacial/main",
-                "rarity": 20,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "ice/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
-                }
-            }
-        ]
-    },
     "shoreHeightZoom": 1.14,
     "riverThickness": 0.006,
     "loot": {

@@ -1,24 +1,14 @@
 {
-    "name": "Frozen",
-    "color": "#44C3D1",
+    "name": "Violet",
+    "color": "#EE82EE",
     "rarity": 1,
     "landBiomes": [
-        "frozen/plains",
-        "frozen/hills",
-        "frozen/tundra-winter",
-        "frozen/pines",
-        "frozen/vander",
-        "frozen/fields/hilly-plains",
-        "frozen/fields/mountain-spruce-winter",
-        "frozen/fields/mountain-spruce-winter-extended",
-        "frozen/fields/cold-spines",
-        "frozen/fields/cold-plains",
-        "frozen/ice-spikes",
-        "frozen/mountains/large-mountain",
-        "frozen/mountains/extreem-ice-spikes"
+        "violet/crystalized-deepdark",
+        "violet/crystalized-forest",
+        "violet/crystalized-plains"
     ],
     "caveBiomes": [
-        "carving/rocky-cavebiome"
+        "carving/amethyst"
     ],
     "jigsawStructures": [
         {
@@ -93,12 +83,11 @@
         }
     ],
     "shoreBiomes": [
-        "frozen/shore/beach"
+        "violet/shore/violet-shore"
     ],
     "seaBiomeZoom": 1,
     "seaBiomes": [
-        "frozen/sea/ocean",
-        "frozen/sea/frozen-river-ice"
+        "violet/ocean/violet-sea"
     ],
     "riverRarity": 1,
     "landBiomeZoom": 3,
@@ -114,13 +103,13 @@
         "ravines": [
             {
                 "rarity": 150,
-                "ravine": "ice/main"
+                "ravine": "amethyst/main"
             }
         ],
         "caves": [
             {
                 "breakSurface": true,
-                "cave": "cavesv4/glacial/main",
+                "cave": "amethyst/small",
                 "rarity": 20,
                 "caveStartHeight": {
                     "max": 400,
@@ -132,8 +121,8 @@
             },
             {
                 "breakSurface": true,
-                "cave": "ice/main",
-                "rarity": 50,
+                "cave": "cavesv4/crystalized/tubes",
+                "rarity": 20,
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
@@ -144,13 +133,13 @@
             },
             {
                 "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 50,
+                "cave": "cavesv4/crystalized-overgrown/tubes",
+                "rarity": 20,
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
                     "style": {
-                        "style": "STATIC"
+                        "style": "VASCULAR"
                     }
                 }
             }

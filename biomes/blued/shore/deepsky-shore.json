@@ -1,0 +1,171 @@
+{
+    "name": "Deepsky Beach",
+    "color": "#00BFFF",
+    "rarity": 1,
+    "derivative": "STONY_SHORE",
+    "vanillaDerivative": "STONY_SHORE",
+    "customDerivitives": [
+        {
+            "id": "deepsky_beach",
+            "waterColor": "#00BFFF",
+            "fogColor": "#00BFFF",
+            "downfallType": "snow",
+            "temperature": 0,
+            "waterFogColor": "#00BFFF",
+            "foliageColor": "#00BFFF",
+            "grassColor": "#00BFFF"
+        }
+    ],
+    "generators": [
+        {
+            "min": -5,
+            "max": 1,
+            "generator": "plain"
+        }
+    ],
+    "layers": [
+        {
+            "minHeight": 0,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "minecraft:light_blue_concrete_powder",
+                    "weight": 20
+                },
+                {
+                    "block": "minecraft:blue_concrete_powder",
+                    "weight": 2
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "minecraft:blue_concrete"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [
+                {
+                    "block": "minecraft:diorite"
+                },
+                {
+                    "block": "minecraft:deepslate"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.003,
+            "density": 1,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 270,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "trees/acacia/t1",
+                "trees/acacia/t2",
+                "trees/acacia/t3",
+                "trees/acacia/t4",
+                "trees/acacia/t5",
+                "trees/acacia/t6",
+                "trees/acacia/t7",
+                "trees/acacia/t8",
+                "trees/acacia/t9",
+                "trees/acacia/t10",
+                "trees/acacia/t11",
+                "trees/acacia/t12",
+                "trees/acacia/t13"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            },
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:acacia_wood"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:stripped_warped_hyphae"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:spruce_fence"
+                        },
+                        {
+                            "block": "minecraft:dark_oak_leaves"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:white_stained_glass",
+                                "weight": 1
+                            },
+                            {
+                                "block": "minecraft:blue_stained_glass",
+                                "weight": 3
+                            },
+                            {
+                                "block": "minecraft:light_blue_stained_glass",
+                                "weight": 3
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "slab": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "block": "minecraft:light_blue_glazed_terracotta",
+                "data": {
+                    "facing": "north"
+                }
+            },
+            {
+                "block": "minecraft:light_blue_glazed_terracotta",
+                "data": {
+                    "facing": "south"
+                }
+            },
+            {
+                "block": "minecraft:light_blue_glazed_terracotta",
+                "data": {
+                    "facing": "west"
+                }
+            },
+            {
+                "block": "minecraft:light_blue_glazed_terracotta",
+                "data": {
+                    "facing": "east"
+                }
+            }
+        ]
+    }
+}
