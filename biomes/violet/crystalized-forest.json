@@ -1,0 +1,50 @@
+{
+    "name": "Nothing Here",
+    "color": "#000000",
+    "rarity": 1,
+    "derivative": "THE_VOID",
+    "vanillaDerivative": "THE_VOID",
+    "generators": [
+        {
+            "generator": "nothing",
+            "max": 20,
+            "min": 20
+        }
+    ],
+    "customDerivitives": [
+        {
+            "category": "the_end",
+            "id": "nothing_here",
+            "temperature": -3,
+            "humidity": 0,
+            "downfallType": "none",
+            "skyColor": "#FFFFFF",
+            "fogColor": "#FFFFFF",
+            "waterColor": "#FFFFFF",
+            "waterFogColor": "#FFFFFF"
+        }
+    ],
+    "layers": [
+        {
+            "minHeight": 5,
+            "maxHeight": 5,
+            "zoom": 0.7,
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "minecraft:white_concrete"
+                }
+            ]
+        }
+    ],
+    "slab": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "block": "minecraft:iron_block"
+            }
+        ]
+    }
+}
