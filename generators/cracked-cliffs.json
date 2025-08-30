@@ -7,12 +7,12 @@
     "composite": [{
         "style": {
             "style": "GLOB",
-            "zoom": 0.8,
-            "exponent": 1.4,
+            "zoom": 0.4,
+            "exponent": 0.7,
             "fracture": {
                 "style": "NOWHERE",
-                "zoom": 0.2,
-                "multiplier": 10
+                "zoom": 0.1,
+                "multiplier": 5
             }
         },
         "negative": true,
@@ -23,6 +23,6 @@
     "cliffHeightGenerator": {
         "seed": 2348,
         "style": {"style": "CELLULAR_HEIGHT"},
-        "zoom": 1.2
+        "zoom": 0.4
     }
 }

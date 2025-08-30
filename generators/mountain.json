@@ -7,8 +7,9 @@
     "composite": [{
         "style": {
             "style": "FRACTAL_SMOKE",
-            "zoom": 20
+            "zoom": 1
         },
         "seed": 3356
     }]
 }
+

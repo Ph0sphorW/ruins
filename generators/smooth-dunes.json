@@ -9,7 +9,7 @@
             "seed": 2343,
             "style": {
                 "style": "NOWHERE",
-                "zoom": 20
+                "zoom": 2
             },
             "exponent": 0.5,
             "opacity": 1
@@ -17,10 +17,10 @@
         {
             "seed": 23432,
             "style": {"style": "FRACTAL_BILLOW_SIMPLEX"},
-            "exponent": 19,
-            "zoom": 8,
+            "exponent": 1.9,
+            "zoom": 0.8,
             "negative": true,
-            "opacity": 1
+            "opacity": 0.5
         }
     ]
 }

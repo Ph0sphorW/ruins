@@ -7,10 +7,10 @@
     "composite": [{
         "style": {
             "style": "SIMPLEX_CELLS",
-            "zoom": 35.5,
+            "zoom": 3.55,
             "fracture": {
                 "style": "NOWHERE",
-                "zoom": 22.5,
+                "zoom": 2.25,
                 "multiplier": 60
             },
             "exponent": 5.8

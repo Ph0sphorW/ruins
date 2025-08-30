@@ -1,6 +1,7 @@
 {
     "name": "Frozen",
     "color": "#44C3D1",
+
     "rarity": 1,
     "landBiomes": [
         "frozen/plains",
@@ -16,28 +17,31 @@
         "frozen/ice-spikes",
         "frozen/mountains/large-mountain",
         "frozen/mountains/extreem-ice-spikes"
+
     ],
+
     "caveBiomes": [
         "carving/rocky-cavebiome"
     ],
-    "jigsawStructures": [
-        {
-            "structure": "ruined-portal",
-            "rarity": 1200
+    "jigsawStructures": [{
+        "structure": "ruined-portal",
+        "rarity": 1200
         },
         {
-            "structure": "dungeon-skeleton",
-            "rarity": 800
+        "structure": "dungeon-skeleton",
+        "rarity": 800
         },
         {
-            "structure": "dungeon-spider",
-            "rarity": 800
+        "structure": "dungeon-spider",
+        "rarity": 800
         },
         {
-            "structure": "dungeon-zombie",
-            "rarity": 800
+        "structure": "dungeon-zombie",
+        "rarity": 800
         }
-    ],
+        ],
+
+
     "objects": [
         {
             "heightmap": {
@@ -59,22 +63,10 @@
                 "structures/amethyst5",
                 "structures/amethyst6"
             ],
-            "edit": [
-                {
-                    "find": [
-                        {
-                            "block": "minecraft:glass"
-                        }
-                    ],
-                    "replace": {
-                        "palette": [
-                            {
-                                "block": "minecraft:void_air"
-                            }
-                        ]
-                    }
-                }
-            ],
+            "edit": [{
+                "find": [{"block": "minecraft:glass"}],
+                "replace": {"palette": [{"block": "minecraft:void_air"}]}
+            }],
             "enabled": true,
             "xAxis": {
                 "interval": 90,
@@ -92,13 +84,33 @@
             }
         }
     ],
-    "shoreBiomes": [
-        "frozen/shore/beach"
-    ],
+    "shoreBiomes": ["frozen/shore/beach"],
     "seaBiomeZoom": 1,
     "seaBiomes": [
         "frozen/sea/ocean",
         "frozen/sea/frozen-river-ice"
+    ],
+    "deposits": [
+        {
+            "minHeight": 8,
+            "maxPerChunk": 5,
+            "maxHeight": 45,
+            "minPerChunk": 1,
+            "minSize": 2,
+            "maxSize": 4,
+            "palette": [{"block": "minecraft:diamond_ore"}],
+            "varience": 4
+        },
+        {
+            "minHeight": 1,
+            "maxPerChunk": 5,
+            "maxHeight": 84,
+            "minPerChunk": 1,
+            "minSize": 3,
+            "maxSize": 8,
+            "palette": [{"block": "minecraft:copper_ore"}],
+            "varience": 8
+        }
     ],
     "riverRarity": 1,
     "landBiomeZoom": 3,
@@ -111,23 +123,19 @@
         "frozen/water"
     ],
     "carving": {
-        "ravines": [
-            {
-                "rarity": 150,
-                "ravine": "ice/main"
-            }
-        ],
+        "ravines": [{
+            "rarity": 150,
+            "ravine": "ice/main"
+        }],
         "caves": [
-            {
+             {
                 "breakSurface": true,
                 "cave": "cavesv4/glacial/main",
                 "rarity": 20,
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
+                    "style": {"style": "VASCULAR"}
                 }
             },
             {
@@ -137,9 +145,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
+                    "style": {"style": "VASCULAR"}
                 }
             },
             {
@@ -149,9 +155,7 @@
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
-                    "style": {
-                        "style": "STATIC"
-                    }
+                    "style": {"style": "STATIC"}
                 }
             }
         ]
@@ -160,10 +164,6 @@
     "riverThickness": 0.006,
     "loot": {
         "mode": "REPLACE",
-        "tables": [
-            "frozen/clutter",
-            "frozen/food",
-            "snow/clutter"
-        ]
+        "tables": ["frozen/clutter", "frozen/food", "snow/clutter"]
     }
 }

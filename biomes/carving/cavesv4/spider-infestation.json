@@ -1,37 +1,18 @@
 {
     "name": "Spider Infestation",
-    "wall": {
-        "palette": [
-            {
-                "block": "minecraft:gray_concrete"
-            },
-            {
-                "block": "minecraft:light_gray_concrete"
-            }
-        ]
-    },
+    "wall": {"palette": [{"block": "minecraft:tuff"}]},
     "entitySpawners": [
         "cavesv4/spider-infestation"
     ],
-    "layers": [
-        {
-            "maxHeight": 1,
-            "minHeight": 1,
-            "palette": [
-                {
-                    "block": "minecraft:calcite"
-                },
-                {
-                    "block": "minecraft:bone_block"
-                },
-                {
-                    "block": "minecraft:white_concrete"
-                }
-            ]
-        }
-    ],
-    "decorators": [
-        {
+    "layers": [{
+        "maxHeight": 1,
+        "minHeight": 1,
+        "palette": [
+            {"block": "minecraft:calcite"},
+            {"block": "minecraft:bone_block"}
+        ]
+    }],
+    "decorators": [ {
             "chance": 0.2,
             "scaleStack": true,
             "stackMin": 30,
@@ -39,21 +20,16 @@
             "partOf": "CEILING",
             "absoluteMaxStack": 5,
             "palette": [
-                {
-                    "block": "minecraft:white_stained_glass_pane"
-                }
+                {"block": "minecraft:cobweb"}
             ]
-        }
-    ],
+        }],
+
     "caveCeilingLayers": [
-        {
-            "maxHeight": 1,
-            "minHeight": 1,
-            "palette": [
-                {
-                    "block": "minecraft:deepslate"
-                }
-            ]
-        }
-    ]
+    {
+        "maxHeight": 1,
+        "minHeight": 1,
+        "palette": [
+            {"block": "minecraft:stone"}
+        ]
+    }]
 }
