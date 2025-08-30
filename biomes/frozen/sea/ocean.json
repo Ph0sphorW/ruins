@@ -3,34 +3,49 @@
     "color": "#3DB9F1",
     "derivative": "FROZEN_OCEAN",
     "vanillaDerivative": "FROZEN_OCEAN",
-    "generators": [{
-        "min": -32,
-        "max": -10,
-        "generator": "mountain"
-    }],
+    "generators": [
+        {
+            "min": -32,
+            "max": -10,
+            "generator": "mountain"
+        }
+    ],
     "layers": [
-        {"palette": [
-            {"block": "minecraft:dirt"},
-            {"block": "minecraft:gravel"},
-            {"block": "minecraft:stone"}
-        ]},
+        {
+            "palette": [
+                {
+                    "block": "minecraft:blue_ice"
+                },
+                {
+                    "block": "minecraft:obsidian"
+                },
+                {
+                    "block": "minecraft:deepslate"
+                }
+            ]
+        },
         {
             "minHeight": 2,
             "maxHeight": 3,
-            "style": {"style": "STATIC"},
+            "style": {
+                "style": "STATIC"
+            },
             "palette": [
                 {
                     "weight": 5,
-                    "block": "minecraft:sand"
+                    "block": "minecraft:blue_ice"
                 },
-                {"block": "minecraft:clay"},
-                {"block": "minecraft:gravel"},
-                {"block": "minecraft:dirt"}
+                {
+                    "block": "minecraft:obsidian"
+                },
+                {
+                    "block": "minecraft:deepslate"
+                }
             ]
         }
     ],
     "objects": [
-         {
+        {
             "chance": 0.001,
             "mode": "CENTER_HEIGHT",
             "density": 1,
@@ -48,7 +63,7 @@
             "place": [
                 "structures/gall1"
             ],
-            "translate":{
+            "translate": {
                 "y": -7
             }
         },
@@ -131,35 +146,18 @@
         {
             "chance": 0.0325,
             "density": 1,
-            "place": ["structures/snowulder"]
-        },
-        {
-            "chance": 0.0035,
-            "rotation": {
-                "yAxis": {
-                    "min": 0,
-                    "max": 270,
-                    "interval": 90,
-                    "enabled": true
-                },
-                "enabled": true
-            },
-            "underwater": true,
             "place": [
-                "structures/oruins1",
-                "structures/oruins2",
-                "structures/oruins3"
-            ],
-            "mode": "PAINT",
-            "loot": [{"name": "structures/ocean-ruins"}],
-            "overrideGlobalLoot": true
+                "structures/snowulder"
+            ]
         }
     ],
     "seaLayers": [
         {
             "minHeight": 1,
             "maxHeight": 3,
-            "style": {"style": "CELLULAR_HEIGHT_IRIS"},
+            "style": {
+                "style": "CELLULAR_HEIGHT_IRIS"
+            },
             "zoom": 0.5,
             "palette": [
                 {
@@ -170,7 +168,9 @@
                     "weight": 2,
                     "block": "minecraft:packed_ice"
                 },
-                {"block": "minecraft:blue_ice"},
+                {
+                    "block": "minecraft:blue_ice"
+                },
                 {
                     "weight": 2,
                     "block": "minecraft:packed_ice"
@@ -184,7 +184,11 @@
         {
             "minHeight": 1,
             "maxHeight": 2,
-            "palette": [{"block": "minecraft:packed_ice"}]
+            "palette": [
+                {
+                    "block": "minecraft:packed_ice"
+                }
+            ]
         }
     ]
 }

@@ -10,7 +10,7 @@
             "zoom": 1.2,
             "fracture": {
                 "style": "IRIS_HALF",
-                "zoom": 0.345,
+                "zoom": 3.45,
                 "multiplier": 18
             }
         },

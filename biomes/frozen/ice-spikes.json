@@ -10,25 +10,22 @@
             "foliageColor": "#194569",
             "id": "winter_mountain_forest1",
             "grassColor": "#FFFAFA"
-
         },
-         {
+        {
             "category": "taiga",
             "foliageColor": "#5F84A2",
             "id": "winter_mountain_forest2",
             "grassColor": "#FFFAFA"
-
         },
-         {
+        {
             "category": "taiga",
             "foliageColor": "#91AEC4",
             "id": "winter_mountain_forest3",
             "grassColor": "#FFFAFA"
-
         }
     ],
     "generators": [
-         {
+        {
             "generator": "mountain",
             "max": 43,
             "min": 15
@@ -42,13 +39,13 @@
     "wall": {
         "palette": [
             {
-                "block": "minecraft:stone"
+                "block": "minecraft:diorite"
             },
             {
-                "block": "minecraft:andesite"
+                "block": "minecraft:calcite"
             },
             {
-                "block": "minecraft:gravel"
+                "block": "minecraft:cyan_terracotta"
             }
         ]
     },
@@ -60,7 +57,11 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3.3
             },
-            "palette": [{"block": "minecraft:snow_block"}]
+            "palette": [
+                {
+                    "block": "minecraft:snow_block"
+                }
+            ]
         },
         {
             "minHeight": 3,
@@ -69,20 +70,62 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:dirt"}]
+            "palette": [
+                {
+                    "block": "minecraft:calcite"
+                }
+            ]
         },
         {
             "minHeight": 3,
-            "maxHeight": 3,
+            "maxHeight": 13,
             "slopeCondition": {
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:dirt"}, {"block": "minecraft:stone"}]
+            "palette": [
+                {
+                    "block": "minecraft:blackstone"
+                },
+                {
+                    "block": "minecraft:deepslate"
+                }
+            ]
         }
     ],
     "objects": [
-         {
+        {
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:ice"
+                        },
+                        {
+                            "block": "minecraft:packed_ice"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:light_blue_stained_glass"
+                            },
+                            {
+                                "block": "minecraft:blue_stained_glass"
+                            },
+                            {
+                                "block": "minecraft:ice"
+                            },
+                            {
+                                "block": "minecraft:packed_ice"
+                            },
+                            {
+                                "block": "minecraft:blue_ice"
+                            }
+                        ]
+                    }
+                }
+            ],
             "mode": "PAINT",
             "chance": 0.1,
             "place": [
@@ -97,16 +140,14 @@
                 "clutter/icecluster9",
                 "clutter/icecluster10",
                 "clutter/icecluster11"
-
             ],
-          "rotation":{
-                "zAxis":{
+            "rotation": {
+                "zAxis": {
                     "max": 360,
                     "min": 0,
                     "interval": 90,
                     "enabled": true
                 },
-
                 "enabled": true
             }
         }

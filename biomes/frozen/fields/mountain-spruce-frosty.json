@@ -1,23 +1,19 @@
-
-
 {
     "name": "Mountain Forest",
     "color": "#B0BDC4",
     "rarity": 1,
     "derivative": "SNOWY_PLAINS",
     "vanillaDerivative": "SNOWY_PLAINS",
-    "children": ["frozen/fields/mountain-spruce-frosty-extended"],
-    "childStyle":{
+    "children": [
+        "frozen/fields/mountain-spruce-frosty-extended"
+    ],
+    "childStyle": {
         "style": "SIMPLEX",
         "zoom": 0.5
     },
-      "jigsawStructures": [
+    "jigsawStructures": [
         {
             "structure": "pillager-outpost",
-            "rarity": 800
-        },
-         {
-            "structure": "village-snowy",
             "rarity": 800
         },
         {
@@ -25,28 +21,24 @@
             "rarity": 800
         }
     ],
-
     "customDerivitives": [
         {
             "category": "taiga",
             "foliageColor": "#194569",
             "id": "winter_mountain_forest1",
             "grassColor": "#FFFAFA"
-
         },
-         {
+        {
             "category": "taiga",
             "foliageColor": "#5F84A2",
             "id": "winter_mountain_forest2",
             "grassColor": "#FFFAFA"
-
         },
-         {
+        {
             "category": "taiga",
             "foliageColor": "#91AEC4",
             "id": "winter_mountain_forest3",
             "grassColor": "#FFFAFA"
-
         }
     ],
     "generators": [
@@ -59,14 +51,22 @@
             "generator": "mountain",
             "max": 5,
             "min": 1
-        }],
-    "wall": {"palette": [
-        {"block": "minecraft:stone"},
-        {"block": "minecraft:andesite"},
-        {"block": "minecraft:gravel"},
-        {"block": "minecraft:cyan_terracotta"}
-    ]},
-   "layers": [
+        }
+    ],
+    "wall": {
+        "palette": [
+            {
+                "block": "minecraft:white_concrete"
+            },
+            {
+                "block": "minecraft:calcite"
+            },
+            {
+                "block": "minecraft:diorite"
+            }
+        ]
+    },
+    "layers": [
         {
             "minHeight": 1,
             "maxHeight": 1,
@@ -74,20 +74,23 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3.3
             },
-            "style":{
+            "style": {
                 "style": "SIMPLEX",
                 "zoom": 0.5,
-            "fracture": {
-                "axialFracturing": true,
-                "style": "STATIC",
-                "multiplier": 4
-            }
+                "fracture": {
+                    "axialFracturing": true,
+                    "style": "STATIC",
+                    "multiplier": 4
+                }
             },
             "palette": [
-                {"block": "minecraft:grass_block"},
-                {"block": "minecraft:snow_block"}
-
-                ]
+                {
+                    "block": "minecraft:white_concrete"
+                },
+                {
+                    "block": "minecraft:snow_block"
+                }
+            ]
         },
         {
             "minHeight": 3,
@@ -96,7 +99,11 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:dirt"}]
+            "palette": [
+                {
+                    "block": "minecraft:white_concrete_powder"
+                }
+            ]
         },
         {
             "minHeight": 3,
@@ -105,12 +112,18 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:dirt"}, {"block": "minecraft:stone"}]
+            "palette": [
+                {
+                    "block": "minecraft:deepslate"
+                },
+                {
+                    "block": "minecraft:cobbled_deepslate"
+                }
+            ]
         }
     ],
-
     "objects": [
-         {
+        {
             "mode": "PAINT",
             "density": 1,
             "chance": 0.005,
@@ -120,6 +133,36 @@
                 "clutter/camp3",
                 "clutter/camp4",
                 "clutter/camp5"
+            ],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_wood"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:waxed_copper_block"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_planks"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:bamboo_block"
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -129,6 +172,28 @@
                 "clutter/sbush1",
                 "clutter/sbush2",
                 "clutter/sbush3"
+            ],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_log"
+                        },
+                        {
+                            "block": "minecraft:spruce_log"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:blackstone"
+                            },
+                            {
+                                "block": "minecraft:polished_blackstone"
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -138,6 +203,28 @@
                 "clutter/sbush1",
                 "clutter/sbush2",
                 "clutter/sbush3"
+            ],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_log"
+                        },
+                        {
+                            "block": "minecraft:spruce_log"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:blackstone"
+                            },
+                            {
+                                "block": "minecraft:polished_blackstone"
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -147,6 +234,28 @@
                 "clutter/sbush1",
                 "clutter/sbush2",
                 "clutter/sbush3"
+            ],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_log"
+                        },
+                        {
+                            "block": "minecraft:spruce_log"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:blackstone"
+                            },
+                            {
+                                "block": "minecraft:polished_blackstone"
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -183,19 +292,93 @@
                 "trees/spruce/vgeneric31",
                 "trees/spruce/vgeneric32"
             ],
-            "edit": [{
-                "find": [
-                    {"block": "minecraft:dark_oak_fence"},
-                    {"block": "minecraft:dark_oak_fence_gate"}
-                ],
-                "replace": {"palette": [{"block": "minecraft:spruce_leaves"}]}
-            },
-             {
-                "find": [
-                    {"block": "minecraft:spruce_leaves"}
-                ],
-                "replace": {"palette": [{"block": "minecraft:oak_leaves"}]}
-            }],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:dark_oak_fence"
+                        },
+                        {
+                            "block": "minecraft:dark_oak_fence_gate"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:spruce_leaves"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:spruce_leaves"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:oak_leaves"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:spruce_wood"
+                        },
+                        {
+                            "block": "minecraft:dark_oak_wood"
+                        },
+                        {
+                            "block": "minecraft:spruce_log"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:blackstone"
+                            },
+                            {
+                                "block": "minecraft:polished_blackstone"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:stripped_spruce_wood"
+                        },
+                        {
+                            "block": "minecraft:stripped_dark_oak_wood"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:gilded_blackstone"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:spruce_fence"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:blackstone_wall"
+                            }
+                        ]
+                    }
+                }
+            ],
             "chance": 1,
             "density": 2,
             "rotation": {
@@ -209,86 +392,46 @@
             }
         }
     ],
-   "decorators": [
+    "decorators": [
         {
             "chance": 0.003,
-            "variance": {"style": "STATIC"},
+            "variance": {
+                "style": "STATIC"
+            },
             "zoom": 1,
             "palette": [
-                {"block": "minecraft:white_tulip"},
-                {"block": "minecraft:cornflower"},
-                {"block": "minecraft:blue_orchid"},
-                {"block": "minecraft:lily_of_the_valley"}
-            ],
-            "style": {"style": "STATIC"}
-        },
-        {
-            "chance": 0.01,
-            "variance": {"style": "STATIC"},
-            "zoom": 0.3,
-            "palette": [
                 {
-                    "data": {"age": 0},
-                    "block": "minecraft:sweet_berry_bush"
+                    "block": "minecraft:white_stained_glass_pane"
                 },
                 {
-                    "data": {"age": 1},
-                    "block": "minecraft:sweet_berry_bush"
+                    "block": "minecraft:yellow_stained_glass_pane"
                 },
                 {
-                    "data": {"age": 2},
-                    "block": "minecraft:sweet_berry_bush"
+                    "block": "minecraft:blue_stained_glass_pane"
                 },
                 {
-                    "data": {"age": 3},
-                    "block": "minecraft:sweet_berry_bush"
+                    "block": "minecraft:light_blue_stained_glass_pane"
                 }
             ],
-            "style": {"style": "STATIC"}
+            "style": {
+                "style": "STATIC"
+            }
         },
         {
             "chance": 0.25,
-            "palette": [{"block": "minecraft:snow"}]
-        },
-         {
-            "chance": 0.01,
             "palette": [
                 {
-                    "block": "minecraft:stone_button",
-                    "data": {"Facing": "north", "face": "floor"}
+                    "block": "minecraft:snow"
                 }
-
-                ]
-        },
-         {
-            "chance": 0.01,
-            "palette": [
-                {
-                    "block": "minecraft:stone_button",
-                    "data": {"Facing": "east", "face": "floor"}
-                }
-
-                ]
-        },
-        {
-            "chance": 0.06,
-            "palette": [{"block": "minecraft:tall_grass"}]
-        },
-        {
-            "chance": 0.25,
-            "palette": [{"block": "minecraft:grass"}]
-        },
-        {
-            "chance": 0.06,
-            "palette": [{"block": "minecraft:fern"}]
-        },
-        {
-            "chance": 0.1,
-            "palette": [{"block": "minecraft:large_fern"}]
+            ]
         },
         {
             "chance": 0.05,
-            "palette": [{"block": "minecraft:cobblestone_slab"}]
+            "palette": [
+                {
+                    "block": "minecraft:smooth_quartz_slab"
+                }
+            ]
         }
     ]
 }
