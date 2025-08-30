@@ -1,16 +1,11 @@
 {
-    "name": "Pale",
-    "color": "#F8F8FF",
+    "name": "Violet",
+    "color": "#EE82EE",
     "rarity": 1,
     "landBiomes": [
-        "pale/calcite-forest",
-        "pale/calcite-plains",
-        "pale/pale-desert",
-        "pale/pale-forest",
-        "pale/pale-plains",
-        "pale/quartz-extreme-land",
-        "pale/quartz-highland",
-        "pale/quartz-plains"
+        "violet/crystalized-deepdark",
+        "violet/crystalized-forest",
+        "violet/crystalized-plains"
     ],
     "caveBiomes": [
         "carving/rocky-cavebiome"
@@ -22,14 +17,6 @@
         },
         {
             "structure": "dungeon-skeleton",
-            "rarity": 800
-        },
-        {
-            "structure": "dungeon-spider",
-            "rarity": 800
-        },
-        {
-            "structure": "dungeon-zombie",
             "rarity": 800
         }
     ],
@@ -88,12 +75,12 @@
         }
     ],
     "shoreBiomes": [
-        "pale/shore/ghostwhite-shore"
+        "violet/shore/violet-shore"
     ],
     "shoreBiomeZoom": 2,
     "seaBiomeZoom": 1,
     "seaBiomes": [
-        "pale/ocean/ghostwhite-sea"
+        "violet/ocean/violet-sea"
     ],
     "riverRarity": 1,
     "landBiomeZoom": 3,
@@ -103,13 +90,13 @@
         "ravines": [
             {
                 "rarity": 150,
-                "ravine": "calcite/main"
+                "ravine": "amethyst/main"
             }
         ],
         "caves": [
             {
                 "breakSurface": true,
-                "cave": "calcite/main",
+                "cave": "cavesv4/crystalized-overgrown/tubes",
                 "rarity": 20,
                 "caveStartHeight": {
                     "max": 400,
@@ -121,13 +108,25 @@
             },
             {
                 "breakSurface": true,
-                "cave": "calcite/small",
+                "cave": "cavesv4/crystalized/tubes",
                 "rarity": 50,
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
                     "style": {
                         "style": "VASCULAR"
+                    }
+                }
+            },
+            {
+                "breakSurface": true,
+                "cave": "amethyst/small",
+                "rarity": 50,
+                "caveStartHeight": {
+                    "max": 400,
+                    "min": 15,
+                    "style": {
+                        "style": "STATIC"
                     }
                 }
             }
@@ -138,8 +137,9 @@
     "loot": {
         "mode": "REPLACE",
         "tables": [
-            "snow/clutter",
-            "global-tools"
+            "cold/food",
+            "cold/treasure",
+            "global-treasure"
         ]
     }
 }

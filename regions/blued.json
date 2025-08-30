@@ -1,16 +1,11 @@
 {
-    "name": "Pale",
-    "color": "#F8F8FF",
+    "name": "Blued",
+    "color": "#D7FFFF",
     "rarity": 1,
     "landBiomes": [
-        "pale/calcite-forest",
-        "pale/calcite-plains",
-        "pale/pale-desert",
-        "pale/pale-forest",
-        "pale/pale-plains",
-        "pale/quartz-extreme-land",
-        "pale/quartz-highland",
-        "pale/quartz-plains"
+        "blued/all-blue-days",
+        "blued/aquarine-rainforest",
+        "blued/mesa-blue"
     ],
     "caveBiomes": [
         "carving/rocky-cavebiome"
@@ -88,12 +83,12 @@
         }
     ],
     "shoreBiomes": [
-        "pale/shore/ghostwhite-shore"
+        "blued/shore/deepsky-shore"
     ],
     "shoreBiomeZoom": 2,
     "seaBiomeZoom": 1,
     "seaBiomes": [
-        "pale/ocean/ghostwhite-sea"
+        "blued/ocean/deepsky-sea"
     ],
     "riverRarity": 1,
     "landBiomeZoom": 3,
@@ -103,26 +98,14 @@
         "ravines": [
             {
                 "rarity": 150,
-                "ravine": "calcite/main"
+                "ravine": "deep/main"
             }
         ],
         "caves": [
             {
                 "breakSurface": true,
-                "cave": "calcite/main",
+                "cave": "eternal-blue/main",
                 "rarity": 20,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "calcite/small",
-                "rarity": 50,
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
@@ -138,8 +121,8 @@
     "loot": {
         "mode": "REPLACE",
         "tables": [
-            "snow/clutter",
-            "global-tools"
+            "frozen/clutter",
+            "beach/clutter"
         ]
     }
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Ghostwhite Sea",
-    "color": "#F8F8FF",
+    "name": "Deepsky Sea",
+    "color": "#00BFFF",
     "derivative": "DEEP_OCEAN",
     "vanillaDerivative": "DEEP_OCEAN",
     "customDerivitives": [
         {
             "category": "ocean",
-            "id": "ghostwhite_sea",
-            "waterColor": "#F8F8FF",
-            "fogColor": "#F8F8FF",
-            "waterFogColor": "#F8F8FF",
+            "id": "deepsky_sea",
+            "waterColor": "#00BFFF",
+            "fogColor": "#00BFFF",
+            "waterFogColor": "#00BFFF",
             "downfallType": "none",
             "temperature": 0,
-            "foliageColor": "#F8F8FF",
-            "grassColor": "#F8F8FF"
+            "foliageColor": "#00BFFF",
+            "grassColor": "#00BFFF"
         }
     ],
     "generators": [
@@ -37,22 +37,22 @@
             "zoom": 0.6,
             "palette": [
                 {
-                    "block": "minecraft:white_concrete"
+                    "block": "minecraft:blue_concrete"
                 },
                 {
-                    "block": "minecraft:white_concrete"
+                    "block": "minecraft:blue_concrete"
                 },
                 {
-                    "block": "minecraft:diorite"
+                    "block": "minecraft:blue_terracotta"
                 },
                 {
-                    "block": "minecraft:diorite"
+                    "block": "minecraft:blue_terracotta"
                 },
                 {
-                    "block": "minecraft:quartz_block"
+                    "block": "minecraft:light_blue_concrete"
                 },
                 {
-                    "block": "minecraft:smooth_quartz"
+                    "block": "minecraft:light_blue_concrete"
                 }
             ]
         },
@@ -61,7 +61,7 @@
             "maxHeight": 10,
             "palette": [
                 {
-                    "block": "minecraft:white_concrete"
+                    "block": "minecraft:light_blue_concrete"
                 }
             ]
         }
@@ -71,20 +71,13 @@
             "chance": 0.09,
             "palette": [
                 {
-                    "block": "minecraft:diorite_wall",
+                    "block": "minecraft:soul_lantern",
                     "data": {
-                        "waterlogged": true
-                    }
-                },
-                {
-                    "block": "minecraft:end_stone_brick_wall",
-                    "data": {
-                        "waterlogged": true
+                        "waterlogged": true,
+                        "hanging": false
                     }
                 }
             ],
-            "stackMin": 2,
-            "stackMax": 12,
             "partOf": "SEA_FLOOR"
         }
     ]

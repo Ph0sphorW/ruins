@@ -52,11 +52,14 @@
             }
         }
     },
-    "regionZoom": 3.85,
+    "regionZoom": 2.85,
     "regions": [
         "frozen",
         "noir",
-        "pale"
+        "pale",
+        "violet",
+        "blued",
+        "fake"
     ],
     "seaBiomeStyle": {
         "style": "SIMPLEX",

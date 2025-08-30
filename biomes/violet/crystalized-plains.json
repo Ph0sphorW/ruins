@@ -86,5 +86,28 @@
                 }
             }
         ]
-    }
+    },
+    "decorators": [
+        {
+            "chance": 0.05,
+            "variance": {
+                "style": "PERLIN_IRIS_HALF"
+            },
+            "zoom": 0.2,
+            "palette": [
+                {
+                    "block": "minecraft:budding_amethyst"
+                },
+                {
+                    "block": "minecraft:small_amethyst_bud"
+                },
+                {
+                    "block": "minecraft:medium_amethyst_bud"
+                },
+                {
+                    "block": "minecraft:large_amethyst_bud"
+                }
+            ]
+        }
+    ]
 }

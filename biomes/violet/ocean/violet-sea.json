@@ -34,7 +34,7 @@
             "style": {
                 "style": "NOWHERE"
             },
-            "zoom": 0.6,
+            "zoom": 2.4,
             "palette": [
                 {
                     "block": "minecraft:purple_concrete",
@@ -103,8 +103,38 @@
                     }
                 }
             ],
-            "stackMin": 2,
-            "stackMax": 12,
+            "stackMin": 70,
+            "stackMax": 108,
+            "partOf": "SEA_FLOOR"
+        },
+        {
+            "chance": 0.18,
+            "palette": [
+                {
+                    "block": "minecraft:small_amethyst_bud",
+                    "data": {
+                        "waterlogged": true
+                    }
+                },
+                {
+                    "block": "minecraft:medium_amethyst_bud",
+                    "data": {
+                        "waterlogged": true
+                    }
+                },
+                {
+                    "block": "minecraft:large_amethyst_bud",
+                    "data": {
+                        "waterlogged": true
+                    }
+                },
+                {
+                    "block": "minecraft:amethyst_cluster",
+                    "data": {
+                        "waterlogged": true
+                    }
+                }
+            ],
             "partOf": "SEA_FLOOR"
         }
     ]

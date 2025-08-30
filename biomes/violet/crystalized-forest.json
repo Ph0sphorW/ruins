@@ -1,25 +1,53 @@
 {
-    "name": "Nothing Here",
-    "color": "#000000",
+    "name": "Crystalized Forest",
+    "color": "#FF66FF",
     "rarity": 1,
-    "derivative": "THE_VOID",
-    "vanillaDerivative": "THE_VOID",
     "generators": [
         {
             "generator": "nothing",
-            "max": 20,
-            "min": 20
+            "max": 35,
+            "min": 5
         }
     ],
+    "customDerivitives": [
+        {
+            "category": "the_end",
+            "id": "crystalized_forest",
+            "temperature": -3,
+            "humidity": 0,
+            "downfallType": "none",
+            "skyColor": "#FF99FF",
+            "fogColor": "#FF99FF",
+            "waterColor": "#FF33FF",
+            "waterFogColor": "#FF33FF"
+        }
+    ],
+    "wall": {
+        "style": {
+            "style": "PERLIN_IRIS",
+            "zoom": 0.08
+        },
+        "palette": [
+            {
+                "block": "minecraft:amethyst_block",
+                "weight": 4
+            },
+            {
+                "block": "minecraft:purple_concrete",
+                "weight": 1
+            }
+        ]
+    },
     "layers": [
         {
-            "minHeight": 5,
-            "maxHeight": 5,
-            "zoom": 0.7,
             "palette": [
                 {
-                    "weight": 1,
-                    "block": "minecraft:white_concrete"
+                    "block": "minecraft:purpur_block",
+                    "weight": 1
+                },
+                {
+                    "block": "minecraft:amethyst_block",
+                    "weight": 4
                 }
             ]
         }
@@ -30,8 +58,108 @@
         },
         "palette": [
             {
-                "block": "minecraft:iron_block"
+                "block": "minecraft:purple_glazed_terracotta",
+                "data": {
+                    "facing": "north"
+                }
+            },
+            {
+                "block": "minecraft:purple_glazed_terracotta",
+                "data": {
+                    "facing": "south"
+                }
+            },
+            {
+                "block": "minecraft:purple_glazed_terracotta",
+                "data": {
+                    "facing": "west"
+                }
+            },
+            {
+                "block": "minecraft:purple_glazed_terracotta",
+                "data": {
+                    "facing": "east"
+                }
             }
         ]
-    }
+    },
+    "objects": [
+        {
+            "chance": 0.2,
+            "mode": "MIN_HEIGHT",
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 360,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_leaves"
+                        },
+                        {
+                            "block": "minecraft:spruce_leaves"
+                        }
+                    ],
+                    "replace": {
+                        "style": {
+                            "style": "STATIC"
+                        },
+                        "palette": [
+                            {
+                                "block": "minecraft:purple_stained_glass",
+                                "weight": 8
+                            },
+                            {
+                                "block": "minecraft:amethyst_block",
+                                "weight": 4
+                            },
+                            {
+                                "block": "minecraft:budding_amethyst",
+                                "weight": 1
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_wood"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:end_stone",
+                                "weight": 4
+                            },
+                            {
+                                "block": "minecraft:end_stone_bricks",
+                                "weight": 2
+                            }
+                        ]
+                    }
+                }
+            ],
+            "place": [
+                "trees/bonsai/big-1",
+                "trees/bonsai/big-2",
+                "trees/bonsai/big-3",
+                "trees/bonsai/big-4",
+                "trees/bonsai/big-5",
+                "trees/bonsai/big-6",
+                "trees/bonsai/big-7"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            }
+        }
+    ]
 }

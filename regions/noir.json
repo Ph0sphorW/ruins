@@ -87,6 +87,7 @@
     "shoreBiomes": [
         "noir/shore/midnight-shore"
     ],
+    "shoreBiomeZoom": 2,
     "seaBiomeZoom": 1,
     "seaBiomes": [
         "noir/ocean/midnight-sea"

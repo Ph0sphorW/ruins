@@ -1,16 +1,12 @@
 {
-    "name": "Pale",
-    "color": "#F8F8FF",
+    "name": "Fake",
+    "color": "#E6E6FA",
     "rarity": 1,
     "landBiomes": [
-        "pale/calcite-forest",
-        "pale/calcite-plains",
-        "pale/pale-desert",
-        "pale/pale-forest",
-        "pale/pale-plains",
-        "pale/quartz-extreme-land",
-        "pale/quartz-highland",
-        "pale/quartz-plains"
+        "fake/none-forest",
+        "fake/none-islands",
+        "fake/none-plains",
+        "fake/magic-forest-extended"
     ],
     "caveBiomes": [
         "carving/rocky-cavebiome"
@@ -87,42 +83,18 @@
             }
         }
     ],
-    "shoreBiomes": [
-        "pale/shore/ghostwhite-shore"
-    ],
-    "shoreBiomeZoom": 2,
-    "seaBiomeZoom": 1,
-    "seaBiomes": [
-        "pale/ocean/ghostwhite-sea"
-    ],
-    "riverRarity": 1,
-    "landBiomeZoom": 3,
-    "shoreHeightMin": 2.2,
-    "shoreHeightMax": 4.2,
     "carving": {
         "ravines": [
             {
                 "rarity": 150,
-                "ravine": "calcite/main"
+                "ravine": "deep/main"
             }
         ],
         "caves": [
             {
                 "breakSurface": true,
-                "cave": "calcite/main",
+                "cave": "theend/main",
                 "rarity": 20,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "VASCULAR"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "calcite/small",
-                "rarity": 50,
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
@@ -138,8 +110,9 @@
     "loot": {
         "mode": "REPLACE",
         "tables": [
-            "snow/clutter",
-            "global-tools"
+            "hot/food",
+            "beach/clutter",
+            "global-treasure"
         ]
     }
 }

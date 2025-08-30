@@ -106,6 +106,22 @@
                 "clutter/obelisk5",
                 "clutter/obelisk6",
                 "clutter/obelisk7"
+            ],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:vine"
+                        }
+                    ],
+                    "replace":{
+                        "palette": [
+                            {
+                                "block": "minecraft:air"
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
