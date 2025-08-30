@@ -10,21 +10,18 @@
             "foliageColor": "#194569",
             "id": "winter_mountain_forest1",
             "grassColor": "#FFFAFA"
-
         },
-         {
+        {
             "category": "taiga",
             "foliageColor": "#5F84A2",
             "id": "winter_mountain_forest2",
             "grassColor": "#FFFAFA"
-
         },
-         {
+        {
             "category": "taiga",
             "foliageColor": "#91AEC4",
             "id": "winter_mountain_forest3",
             "grassColor": "#FFFAFA"
-
         }
     ],
     "jigsawStructures": [
@@ -38,19 +35,23 @@
         }
     ],
     "generators": [
-         {
+        {
             "generator": "prototype/rivers",
             "max": 10,
             "min": -5
         }
-
-
     ],
     "wall": {
         "palette": [
-        {"block": "minecraft:white_concrete"},
-        {"block": "minecraft:calcite"},
-        {"block": "minecraft:diorite"}
+            {
+                "block": "minecraft:white_concrete"
+            },
+            {
+                "block": "minecraft:calcite"
+            },
+            {
+                "block": "minecraft:diorite"
+            }
         ]
     },
     "layers": [
@@ -61,7 +62,11 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3.3
             },
-            "palette": [{"block": "minecraft:snow_block"}]
+            "palette": [
+                {
+                    "block": "minecraft:snow_block"
+                }
+            ]
         },
         {
             "minHeight": 3,
@@ -70,7 +75,11 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:white_concrete"}]
+            "palette": [
+                {
+                    "block": "minecraft:white_concrete"
+                }
+            ]
         },
         {
             "minHeight": 3,
@@ -79,11 +88,18 @@
                 "minimumSlope": 0,
                 "maximumSlope": 3
             },
-            "palette": [{"block": "minecraft:deepslate"}, {"block": "minecraft:calcite"}]
+            "palette": [
+                {
+                    "block": "minecraft:deepslate"
+                },
+                {
+                    "block": "minecraft:calcite"
+                }
+            ]
         }
     ],
     "objects": [
-         {
+        {
             "mode": "PAINT",
             "chance": 0.01,
             "place": [
@@ -98,27 +114,6 @@
                 "clutter/icecluster9",
                 "clutter/icecluster10",
                 "clutter/icecluster11"
-
-            ]
-        },
-        {
-            "mode": "PAINT",
-            "rotation":{
-                "zAxis":{
-                    "max": 360,
-                    "min": 0,
-                    "interval": 90,
-                    "enabled": true
-                },
-
-                "enabled": true
-            },
-            "chance": 0.05,
-            "place": [
-                "structures/landstone1",
-                "structures/landstone2",
-                "structures/landstone3",
-                "structures/landstone4"
             ]
         },
         {

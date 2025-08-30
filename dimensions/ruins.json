@@ -4,8 +4,8 @@
     "environment": "NORMAL",
     "dimensionAngleDeg": 67,
     "fluidHeight": 43,
-    "continentZoom": 32,
-    "biomeZoom": 4,
+    "continentZoom": 16,
+    "biomeZoom": 8,
     "continentalStyle": {
         "style": "VASCULAR_IRIS_THICK",
         "fracture": {
@@ -36,7 +36,7 @@
         "max": 448,
         "min": -64
     },
-    "landChance": 0.96,
+    "landChance": 0.68,
     "regionStyle": {
         "style": "CELLULAR_IRIS_DOUBLE",
         "axialFracturing": true,
@@ -52,9 +52,11 @@
             }
         }
     },
-    "regionZoom": 30.05,
+    "regionZoom": 3.85,
     "regions": [
-        "frozen"
+        "frozen",
+        "noir",
+        "pale"
     ],
     "seaBiomeStyle": {
         "style": "SIMPLEX",

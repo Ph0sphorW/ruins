@@ -1,0 +1,242 @@
+{
+    "name": "Quartz Highland",
+    "color": "#FFFFFF",
+    "rarity": 1,
+    "derivative": "THE_END",
+    "vanillaDerivative": "BIRCH_FOREST",
+    "biomeScatter": [
+        "THE_VOID"
+    ],
+    "generators": [
+        {
+            "min": 118,
+            "max": 126,
+            "generator": "highplains"
+        }
+    ],
+    "biomeZoom": 120,
+    "biomeStyle": {
+        "style": "SIMPLEX"
+    },
+    "wall": {
+        "style": {
+            "style": "PERLIN_IRIS",
+            "zoom": 0.08
+        },
+        "palette": [
+            {
+                "block": "minecraft:white_concrete"
+            },
+            {
+                "block": "minecraft:smooth_quartz"
+            }
+        ]
+    },
+    "layers": [
+        {
+            "style": {
+                "style": "IRIS",
+                "zoom": 0.1
+            },
+            "palette": [
+                {
+                    "block": "minecraft:smooth_quartz"
+                },
+                {
+                    "block": "minecraft:white_concrete"
+                }
+            ]
+        },
+        {
+            "minHeight": 8,
+            "maxHeight": 19,
+            "palette": [
+                {
+                    "block": "minecraft:white_concrete"
+                },
+                {
+                    "block": "minecraft:smooth_basalt"
+                },
+                {
+                    "block": "minecraft:white_concrete_powder"
+                }
+            ]
+        },
+        {
+            "minHeight": 23,
+            "maxHeight": 28,
+            "style": {
+                "style": "STATIC"
+            },
+            "palette": [
+                {
+                    "block": "minecraft:basalt"
+                },
+                {
+                    "block": "minecraft:deepslate"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "mode": "MAX_HEIGHT",
+            "chance": 0.00003,
+            "place": [
+                "ruins/portal"
+            ]
+        },
+        {
+            "chance": 0.012,
+            "density": 1,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 0,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/obelisk1",
+                "clutter/obelisk2",
+                "clutter/obelisk3",
+                "clutter/obelisk4",
+                "clutter/obelisk5",
+                "clutter/obelisk6",
+                "clutter/obelisk7"
+            ]
+        },
+        {
+            "chance": 0.08,
+            "density": 1,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 360,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "trees/bonsai/big-1",
+                "trees/bonsai/big-2",
+                "trees/bonsai/big-3",
+                "trees/bonsai/big-4",
+                "trees/bonsai/big-5",
+                "trees/bonsai/big-6",
+                "trees/bonsai/big-7"
+            ],
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:spruce_leaves"
+                        },
+                        {
+                            "block": "minecraft:oak_leaves"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:white_stained_glass"
+                            },
+                            {
+                                "block": "minecraft:gray_stained_glass"
+                            },
+                            {
+                                "block": "minecraft:black_stained_glass"
+                            },
+                            {
+                                "block": "minecraft:light_gray_stained_glass"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:oak_wood"
+                        },
+                        {
+                            "block": "minecraft:oak_log"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:smooth_basalt",
+                                "weight": 3
+                            },
+                            {
+                                "block": "minecraft:smooth_quartz",
+                                "weight": 8
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "decorators": [
+        {
+            "chance": 0.2,
+            "variance": {
+                "style": "NOWHERE",
+                "zoom": 0.5
+            },
+            "palette": [
+                {
+                    "data": {
+                        "layers": 1
+                    },
+                    "block": "minecraft:snow"
+                },
+                {
+                    "data": {
+                        "layers": 2
+                    },
+                    "block": "minecraft:snow"
+                },
+                {
+                    "data": {
+                        "layers": 3
+                    },
+                    "block": "minecraft:snow"
+                },
+                {
+                    "data": {
+                        "layers": 4
+                    },
+                    "block": "minecraft:snow"
+                }
+            ]
+        },
+        {
+            "chance": 0.0075,
+            "variance": {
+                "style": "STATIC"
+            },
+            "zoom": 0.2,
+            "stackMax": 2,
+            "stackMin": 2,
+            "topPalette": [
+                {
+                    "block": "minecraft:white_candle",
+                    "data": {
+                        "candles": 1,
+                        "lit": true
+                    }
+                }
+            ],
+            "palette": [
+                {
+                    "block": "minecraft:white_stained_glass_pane"
+                }
+            ]
+        }
+    ]
+}

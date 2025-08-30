@@ -175,44 +175,6 @@
             "overrideGlobalLoot": true
         }
     ],
-    "decorators": [
-        {
-            "chance": 0.07,
-            "variance": {
-                "style": "STATIC"
-            },
-            "zoom": 5,
-            "palette": [
-                {
-                    "block": "minecraft:seagrass"
-                }
-            ],
-            "style": {
-                "style": "STATIC"
-            }
-        },
-        {
-            "chance": 0.013,
-            "verticalZoom": 88,
-            "variance": {
-                "style": "STATIC"
-            },
-            "stackMax": 6,
-            "zoom": 1,
-            "palette": [
-                {
-                    "block": "minecraft:kelp_plant"
-                }
-            ],
-            "style": {
-                "style": "STATIC"
-            },
-            "heightVariance": {
-                "style": "NOWHERE"
-            },
-            "stackMin": 2
-        }
-    ],
     "childStyle": {
         "style": "SIMPLEX"
     },

@@ -7,6 +7,7 @@
     "customDerivitives": [
         {
             "id": "frozen_beach",
+            "category": "icy",
             "waterColor": "#216FC4",
             "fogColor": "#A6D1FF",
             "downfallType": "snow",

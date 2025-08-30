@@ -1,0 +1,90 @@
+{
+    "name": "Crystalized Plains",
+    "color": "#FF66FF",
+    "rarity": 1,
+    "generators": [
+        {
+            "generator": "nothing-expanded",
+            "max": 35,
+            "min": 5
+        }
+    ],
+    "customDerivitives": [
+        {
+            "category": "the_end",
+            "id": "crystalized_plains",
+            "temperature": -3,
+            "humidity": 0,
+            "downfallType": "none",
+            "skyColor": "#FF99FF",
+            "fogColor": "#FF99FF",
+            "waterColor": "#FF33FF",
+            "waterFogColor": "#FF33FF"
+        }
+    ],
+    "wall": {
+        "style": {
+            "style": "PERLIN_IRIS",
+            "zoom": 0.08
+        },
+        "palette": [
+            {
+                "block": "minecraft:amethyst_block",
+                "weight": 4
+            },
+            {
+                "block": "minecraft:purple_concrete",
+                "weight": 1
+            }
+        ]
+    },
+    "layers": [
+        {
+            "style": {
+                "style": "IRIS",
+                "zoom": 0.06
+            },
+            "palette": [
+                {
+                    "block": "minecraft:purpur_block",
+                    "weight": 1
+                },
+                {
+                    "block": "minecraft:amethyst_block",
+                    "weight": 4
+                }
+            ]
+        }
+    ],
+    "slab": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "block": "minecraft:purple_glazed_terracotta",
+                "data": {
+                    "facing": "north"
+                }
+            },
+            {
+                "block": "minecraft:purple_glazed_terracotta",
+                "data": {
+                    "facing": "south"
+                }
+            },
+            {
+                "block": "minecraft:purple_glazed_terracotta",
+                "data": {
+                    "facing": "west"
+                }
+            },
+            {
+                "block": "minecraft:purple_glazed_terracotta",
+                "data": {
+                    "facing": "east"
+                }
+            }
+        ]
+    }
+}

@@ -1,21 +1,16 @@
 {
-    "name": "Frozen",
-    "color": "#44C3D1",
+    "name": "Pale",
+    "color": "#F8F8FF",
     "rarity": 1,
     "landBiomes": [
-        "frozen/plains",
-        "frozen/hills",
-        "frozen/tundra-winter",
-        "frozen/pines",
-        "frozen/vander",
-        "frozen/fields/hilly-plains",
-        "frozen/fields/mountain-spruce-winter",
-        "frozen/fields/mountain-spruce-winter-extended",
-        "frozen/fields/cold-spines",
-        "frozen/fields/cold-plains",
-        "frozen/ice-spikes",
-        "frozen/mountains/large-mountain",
-        "frozen/mountains/extreem-ice-spikes"
+        "pale/calcite-forest",
+        "pale/calcite-plains",
+        "pale/pale-desert",
+        "pale/pale-forest",
+        "pale/pale-plains",
+        "pale/quartz-extreme-land",
+        "pale/quartz-highland",
+        "pale/quartz-plains"
     ],
     "caveBiomes": [
         "carving/rocky-cavebiome"
@@ -93,64 +88,27 @@
         }
     ],
     "shoreBiomes": [
-        "frozen/shore/beach"
+        "pale/shore/ghostwhite-shore"
     ],
     "seaBiomeZoom": 1,
     "seaBiomes": [
-        "frozen/sea/ocean",
-        "frozen/sea/frozen-river-ice"
-    ],
-    "deposits": [
-        {
-            "minHeight": 8,
-            "maxPerChunk": 5,
-            "maxHeight": 45,
-            "minPerChunk": 1,
-            "minSize": 2,
-            "maxSize": 4,
-            "palette": [
-                {
-                    "block": "minecraft:diamond_ore"
-                }
-            ],
-            "varience": 4
-        },
-        {
-            "minHeight": 1,
-            "maxPerChunk": 5,
-            "maxHeight": 84,
-            "minPerChunk": 1,
-            "minSize": 3,
-            "maxSize": 8,
-            "palette": [
-                {
-                    "block": "minecraft:copper_ore"
-                }
-            ],
-            "varience": 8
-        }
+        "pale/ocean/ghostwhite-sea"
     ],
     "riverRarity": 1,
     "landBiomeZoom": 3,
     "shoreHeightMin": 2.2,
     "shoreHeightMax": 4.2,
-    "entitySpawners": [
-        "frozen/passive",
-        "frozen/hostile",
-        "frozen/cave",
-        "frozen/water"
-    ],
     "carving": {
         "ravines": [
             {
                 "rarity": 150,
-                "ravine": "ice/main"
+                "ravine": "calcite/main"
             }
         ],
         "caves": [
             {
                 "breakSurface": true,
-                "cave": "cavesv4/glacial/main",
+                "cave": "calcite/main",
                 "rarity": 20,
                 "caveStartHeight": {
                     "max": 400,
@@ -162,25 +120,13 @@
             },
             {
                 "breakSurface": true,
-                "cave": "ice/main",
+                "cave": "calcite/small",
                 "rarity": 50,
                 "caveStartHeight": {
                     "max": 400,
                     "min": 15,
                     "style": {
                         "style": "VASCULAR"
-                    }
-                }
-            },
-            {
-                "breakSurface": true,
-                "cave": "rocky/main",
-                "rarity": 50,
-                "caveStartHeight": {
-                    "max": 400,
-                    "min": 15,
-                    "style": {
-                        "style": "STATIC"
                     }
                 }
             }
@@ -191,9 +137,8 @@
     "loot": {
         "mode": "REPLACE",
         "tables": [
-            "frozen/clutter",
-            "frozen/food",
-            "snow/clutter"
+            "snow/clutter",
+            "global-tools"
         ]
     }
 }

@@ -1,0 +1,216 @@
+{
+    "name": "Ghostwhite Beach",
+    "color": "#F8F8FF",
+    "rarity": 1,
+    "derivative": "STONY_SHORE",
+    "vanillaDerivative": "STONY_SHORE",
+    "customDerivitives": [
+        {
+            "id": "ghostwhite_beach",
+            "waterColor": "#F8F8FF",
+            "fogColor": "#F8F8FF",
+            "downfallType": "snow",
+            "temperature": 0,
+            "waterFogColor": "#F8F8FF",
+            "foliageColor": "#F8F8FF",
+            "grassColor": "#F8F8FF"
+        }
+    ],
+    "generators": [
+        {
+            "min": -5,
+            "max": 1,
+            "generator": "plain"
+        }
+    ],
+    "layers": [
+        {
+            "minHeight": 0,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "minecraft:white_concrete"
+                },
+                {
+                    "block": "minecraft:white_concrete_powder"
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "minecraft:white_concrete"
+                }
+            ]
+        },
+        {
+            "minHeight": 2,
+            "maxHeight": 4,
+            "palette": [
+                {
+                    "block": "minecraft:diorite"
+                },
+                {
+                    "block": "minecraft:deepslate"
+                }
+            ]
+        }
+    ],
+    "objects": [
+        {
+            "chance": 0.003,
+            "density": 3,
+            "snow": 0.35,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 270,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/twoicespike1",
+                "clutter/twoicespike2",
+                "clutter/twoicespike3",
+                "clutter/twoicespike4"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            },
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:packed_ice"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:white_stained_glass"
+                            },
+                            {
+                                "block": "minecraft:light_gray_stained_glass"
+                            },
+                            {
+                                "block": "minecraft:gray_stained_glass"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "chance": 0.05,
+            "density": 3,
+            "mode": "PAINT",
+            "snow": 0.35,
+            "rotation": {
+                "yAxis": {
+                    "min": 0,
+                    "max": 270,
+                    "interval": 90,
+                    "enabled": true
+                },
+                "enabled": true
+            },
+            "place": [
+                "clutter/smoleicespike1",
+                "clutter/smoleicespike2",
+                "clutter/smoleicespike3",
+                "clutter/smoleicespike4",
+                "clutter/smoleicespike5",
+                "clutter/smoleicespike6",
+                "clutter/smoleicespike7",
+                "clutter/smoleicespike8",
+                "clutter/smoleicespike9"
+            ],
+            "translate": {
+                "x": 0,
+                "y": -1,
+                "z": 0
+            },
+            "edit": [
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:packed_ice"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:light_gray_stained_glass"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:blue_ice"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:white_stained_glass"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "find": [
+                        {
+                            "block": "minecraft:ice"
+                        }
+                    ],
+                    "replace": {
+                        "palette": [
+                            {
+                                "block": "minecraft:gray_stained_glass"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "slab": {
+        "style": {
+            "style": "STATIC"
+        },
+        "palette": [
+            {
+                "block": "minecraft:white_glazed_terracotta",
+                "data": {
+                    "facing": "north"
+                }
+            },
+            {
+                "block": "minecraft:white_glazed_terracotta",
+                "data": {
+                    "facing": "south"
+                }
+            },
+            {
+                "block": "minecraft:white_glazed_terracotta",
+                "data": {
+                    "facing": "west"
+                }
+            },
+            {
+                "block": "minecraft:white_glazed_terracotta",
+                "data": {
+                    "facing": "east"
+                }
+            }
+        ]
+    }
+}
