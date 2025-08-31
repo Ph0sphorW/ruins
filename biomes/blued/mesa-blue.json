@@ -31,7 +31,7 @@
                 "block": "minecraft:blue_terracotta"
             },
             {
-                "block": "minecraft:cyan_terracotta"
+                "block": "minecraft:cyan_concrete"
             }
         ]
     },
@@ -44,7 +44,7 @@
             },
             "palette": [
                 {
-                    "block": "minecraft:cyan_terracotta"
+                    "block": "minecraft:cyan_concrete"
                 }
             ]
         },

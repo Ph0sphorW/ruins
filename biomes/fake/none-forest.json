@@ -1,5 +1,5 @@
 {
-    "name": "Nothing Here",
+    "name": "None Forest",
     "color": "#000000",
     "rarity": 1,
     "derivative": "THE_VOID",
@@ -335,8 +335,8 @@
                 "enabled": true
             },
             "translate": {
-                "y": 50,
-                "yRandom": -25
+                "y": 100,
+                "yRandom": -64
             },
             "edit": [
                 {

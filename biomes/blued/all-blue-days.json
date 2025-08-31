@@ -31,6 +31,10 @@
     ],
     "layers": [
         {
+            "style":{
+                "style": "STATIC",
+                "zoom": 0.7
+            },
             "minHeight": 3,
             "maxHeight": 7,
             "zoom": 0.7,
@@ -51,30 +55,6 @@
             "style": "STATIC"
         },
         "palette": [
-            {
-                "block": "minecraft:light_blue_glazed_terracotta",
-                "data": {
-                    "facing": "north"
-                }
-            },
-            {
-                "block": "minecraft:light_blue_glazed_terracotta",
-                "data": {
-                    "facing": "south"
-                }
-            },
-            {
-                "block": "minecraft:light_blue_glazed_terracotta",
-                "data": {
-                    "facing": "west"
-                }
-            },
-            {
-                "block": "minecraft:light_blue_glazed_terracotta",
-                "data": {
-                    "facing": "east"
-                }
-            },
             {
                 "block": "minecraft:white_glazed_terracotta",
                 "data": {

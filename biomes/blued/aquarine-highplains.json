@@ -1,14 +1,14 @@
 {
-    "name": "Aquarine Rainforest",
+    "name": "Aquarine Highplains",
     "color": "#D7FFFF",
     "rarity": 1,
-    "derivative": "JUNGLE",
-    "vanillaDerivative": "JUNGLE",
+    "derivative": "PLAINS",
+    "vanillaDerivative": "SNOWY_PLAINS",
     "customDerivitives": [
         {
-            "id": "aquarine_rainforest",
+            "id": "aquarine_highplains",
             "skyColor": "#D7FFFF",
-            "category": "jungle",
+            "category": "plains",
             "fogColor": "#8aecec",
             "humidity": 0.9,
             "downfallType": "rain",
@@ -21,14 +21,14 @@
     ],
     "generators": [
         {
-            "min": 65,
-            "max": 99,
-            "generator": "mountain"
+            "generator": "highplains",
+            "max": 107,
+            "min": 92
         },
         {
-            "generator": "highplains",
-            "max": 22,
-            "min": 15
+            "generator": "nothing-expanded",
+            "max": 20,
+            "min": 16
         }
     ],
     "layers": [
@@ -70,6 +70,15 @@
                     "block": "minecraft:stone"
                 }
             ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 5,
+            "palette": [
+                {
+                    "block": "minecraft:deepslate"
+                }
+            ]
         }
     ],
     "objects": [
@@ -108,7 +117,7 @@
                         ]
                     }
                 },
-                {
+                                {
                     "find": [
                         {
                             "block": "minecraft:spruce_leaves"
@@ -211,7 +220,7 @@
                         ]
                     }
                 },
-                {
+                                {
                     "find": [
                         {
                             "block": "minecraft:spruce_leaves"
@@ -313,7 +322,7 @@
                         ]
                     }
                 },
-                {
+                                {
                     "find": [
                         {
                             "block": "minecraft:spruce_leaves"
@@ -415,7 +424,7 @@
                         ]
                     }
                 },
-                {
+                                {
                     "find": [
                         {
                             "block": "minecraft:spruce_leaves"
@@ -465,13 +474,6 @@
                             }
                         ]
                     }
-                },
-                {
-                    "mode": "MAX_HEIGHT",
-                    "chance": 0.00003,
-                    "place": [
-                        "ruins/portal"
-                    ]
                 }
             ],
             "rotation": {
@@ -511,14 +513,12 @@
             "zoom": 0.2,
             "stackMax": 2,
             "stackMin": 2,
-            "topPalette": [
-                {
-                    "block": "minecraft:soul_lantern",
-                    "data": {
-                        "hanging": "false"
-                    }
+            "topPalette": [{
+                "block": "minecraft:soul_lantern",
+                "data": {
+                    "hanging": "false"
                 }
-            ],
+            }],
             "palette": [
                 {
                     "block": "minecraft:polished_blackstone_wall"
